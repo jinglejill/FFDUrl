@@ -1,0 +1,35 @@
+2018-05-18T09:05:05+07:00 
+apple push notification: success, device token : 1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6, payload: {"alert":"\u0e40\u0e17\u0e2a\u0e08\u0e34\u0e4b\u0e27\r
+                     \u0e40\u0e2d","sound":"default"}
+2018-05-18T09:05:11+07:00 
+apple push notification: success, device token : 1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6, payload: {"alert":"\u0e40\u0e17\u0e2a\u0e08\u0e34\u0e4b\u0e27 2\r
+                     \u0e40\u0e2d","sound":"default"}
+2018-05-18T09:18:45+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T09:18:45+07:00 Param=Value: receiptID=377&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T09:18:45+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '377';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '377';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '377');
+2018-05-18T10:31:59+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T10:31:59+07:00 Param=Value: receiptID=385&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T10:31:59+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '385';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '385';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '385');
+2018-05-18T10:36:30+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T10:36:30+07:00 Param=Value: receiptID=386&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T10:36:30+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '386';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '386';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '386');
+2018-05-18T10:37:39+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T10:37:39+07:00 Param=Value: receiptID=387&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T10:37:39+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '387';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '387';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '387');
+2018-05-18T10:40:26+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T10:40:26+07:00 Param=Value: receiptID=388&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T10:40:26+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '388';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '388';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '388');
+2018-05-18T10:42:00+07:00 file: FFDJummumReceiptGetList.php, user: jill
+2018-05-18T10:42:00+07:00 Param=Value: receiptID=389&branchID=1&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-05-18T10:42:00+07:00 select '1' BranchID, Receipt.*, 1 IdInserted from JUMMUM2.Receipt where ReceiptID = '389';select '1' BranchID, OrderTaking.*, 1 IdInserted from JUMMUM2.OrderTaking where ReceiptID = '389';select '1' BranchID, OrderNote.*, 1 IdInserted from JUMMUM2.OrderNote where OrderTakingID in (select orderTakingID from JUMMUM2.OrderTaking where ReceiptID = '389');
+2018-05-18T12:29:38+07:00 file: FFDJummumReceiptUpdate.php, user: jill
+2018-05-18T12:29:38+07:00 Param=Value: (null)=&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&actionScreen=update JMM receipt&
+2018-05-18T12:29:38+07:00 update JUMMUM2.receipt set status = '', modifiedUser = '', modifiedDate = '' where receiptID = ''
+2018-05-18T12:34:17+07:00 file: FFDJummumReceiptUpdate.php, user: jill
+2018-05-18T12:34:17+07:00 Param=Value: customerType=4&replaceSelf=0&receiptID=389&remark=&modifiedUser=jill&receiptDate=2018-05-18 10:41:28  0000&discountType=0&creditCardNo=4242424242424242&modifiedDate=2018-05-18 10:41:55  0000&customerTableID=1&creditCardType=5&mergeReceiptID=0&serviceChargeValue=7.9&serviceChargePercent=10&creditCardAmount=92.98&receiptNoID=00038985&status=9&priceIncludeVat=0&servingPerson=0&cashAmount=0&idInserted=1&openTableDate=2018-05-18 10:41:28  0000&receiptNoTaxID=&discountReason=&discountAmount=0&vatValue=6.08&branchID=1&memberID=17&discountValue=0&vatPercent=7&cashReceive=0&transferDate=&transferAmount=0&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&dbName=MAMARIN7&actionScreen=update JMM receipt&
+2018-05-18T12:34:17+07:00 update JUMMUM2.receipt set status = '9', modifiedUser = '', modifiedDate = '' where receiptID = '389'
+2018-05-18T12:40:46+07:00 file: FFDJummumReceiptUpdate.php, user: jill
+2018-05-18T12:40:46+07:00 Param=Value: customerType=4&replaceSelf=0&receiptID=388&remark=&modifiedUser=jill&receiptDate=2018-05-18 10:39:26  0000&discountType=0&creditCardNo=4242424242424242&modifiedDate=2018-05-18 12:40:48  0000&customerTableID=1&creditCardType=5&mergeReceiptID=0&serviceChargeValue=19.8&serviceChargePercent=10&creditCardAmount=233.05&receiptNoID=00038806&status=9&priceIncludeVat=0&servingPerson=0&cashAmount=0&idInserted=1&openTableDate=2018-05-18 10:39:26  0000&receiptNoTaxID=&discountReason=&discountAmount=0&vatValue=15.25&branchID=1&memberID=17&discountValue=0&vatPercent=7&cashReceive=0&transferDate=&transferAmount=0&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&dbName=MAMARIN7&actionScreen=update JMM receipt&
+2018-05-18T12:40:46+07:00 set auto commit to off
+2018-05-18T12:40:46+07:00 query success, sql: update JUMMUM2.receipt set status = '9', modifiedUser = 'jill', modifiedDate = '2018-05-18 12:40:48  0000' where receiptID = '388', modified user: jill
+2018-05-18T12:40:47+07:00 query commit, file: FFDJummumReceiptUpdate.php, user: jill

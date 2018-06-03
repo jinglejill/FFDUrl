@@ -1,0 +1,30 @@
+2018-03-23T22:14:34+07:00 file: FFDBranchGet.php, user: jill
+2018-03-23T22:14:34+07:00 Param=Value: username=MAMARIN7&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-03-23T22:14:34+07:00 query success, sql: select * from credentials where username = 'MAMARIN7', modified user: jill
+2018-03-23T22:14:34+07:00 sql = select Branch.*, 1 as IdInserted from credentialsdb left join branch on credentialsdb.dbName = branch.dbName  where credentialsdb.credentialsID = 12
+2018-03-23T22:14:43+07:00 file: FFDBranchGet.php, user: jill
+2018-03-23T22:14:43+07:00 Param=Value: username=MAMARIN7&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-03-23T22:14:43+07:00 query success, sql: select * from credentials where username = 'MAMARIN7', modified user: jill
+2018-03-23T22:14:43+07:00 sql = select Branch.*, 1 as IdInserted from credentialsdb left join branch on credentialsdb.dbName = branch.dbName  where credentialsdb.credentialsID = 12
+2018-03-23T22:14:51+07:00 file: FFDBranchUpdate.php, user: jill
+2018-03-23T22:14:51+07:00 Param=Value: status=1&province=กรุงเทพมหานคร&district=g&country=ไทย&replaceSelf=0&subDistrictID=0&street=Y&phoneNo=8887776666&idInserted=1&name=y&zipCodeID=0&map=&employeePermanentNum=0&branchID=8&modifiedDate=2018-03-23 22:14:53  0000&provinceID=0&modifiedUser=jill&branchNo=9&postCode=56789&startDate=2018-02-13 10:16:41  0000&tableNum=0&districtID=0&customerNumMax=0&dbName=MAMARIN7&remark=&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&actionScreen=update branch in branchAdd screen&
+2018-03-23T22:14:51+07:00 set auto commit to off
+2018-03-23T22:14:51+07:00 query success, sql: update Branch set DbName = '', BranchNo = '', Name = '', Street = '', District = '', Province = '', PostCode = '', SubDistrictID = '', DistrictID = '', ProvinceID = '', ZipCodeID = '', Country = '', Map = '', PhoneNo = '', TableNum = '', CustomerNumMax = '', EmployeePermanentNum = '', Status = '', PercentVat = '', CustomerApp = '', ImageUrl = '', StartDate = '', Remark = '', ModifiedUser = '', ModifiedDate = '' where BranchID = '', modified user: jill
+2018-03-23T22:14:51+07:00 query commit, file: FFDBranchUpdate.php, user: jill
+2018-03-23T22:14:53+07:00 file: FFDBranchGet.php, user: jill
+2018-03-23T22:14:53+07:00 Param=Value: username=MAMARIN7&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-03-23T22:14:53+07:00 query success, sql: select * from credentials where username = 'MAMARIN7', modified user: jill
+2018-03-23T22:14:53+07:00 sql = select Branch.*, 1 as IdInserted from credentialsdb left join branch on credentialsdb.dbName = branch.dbName  where credentialsdb.credentialsID = 12
+2018-03-23T22:33:03+07:00 file: FFDBranchGet.php, user: jill
+2018-03-23T22:33:03+07:00 Param=Value: username=MAMARIN7&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-03-23T22:33:03+07:00 query success, sql: select * from credentials where username = 'MAMARIN7', modified user: jill
+2018-03-23T22:33:03+07:00 sql = select Branch.*, 1 as IdInserted from credentialsdb left join branch on credentialsdb.dbName = branch.dbName  where credentialsdb.credentialsID = 12
+2018-03-23T22:33:12+07:00 file: FFDBranchUpdate.php, user: jill
+2018-03-23T22:33:12+07:00 Param=Value: status=2&province=กรุงเทพมหานคร&district=g&country=ไทย&replaceSelf=0&subDistrictID=0&street=Y&deviceTokenReceiveOrder=&phoneNo=8887776666&percentVat=7&idInserted=1&name=y&zipCodeID=0&map=&employeePermanentNum=0&branchID=8&imageUrl=&modifiedDate=2018-03-23 22:33:13  0000&provinceID=0&modifiedUser=jill&customerApp=1&branchNo=9&postCode=56789&tableNum=0&districtID=0&dbName=MAMARIN7&customerNumMax=0&startDate=2018-02-13 10:16:41  0000&remark=&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&actionScreen=update branch in branchAdd screen&
+2018-03-23T22:33:12+07:00 set auto commit to off
+2018-03-23T22:33:12+07:00 query success, sql: update Branch set DbName = '', BranchNo = '9', Name = 'y', Street = 'Y', District = 'g', Province = 'กรุงเทพมหานคร', PostCode = '56789', SubDistrictID = '0', DistrictID = '0', ProvinceID = '0', ZipCodeID = '0', Country = 'ไทย', Map = '', PhoneNo = '8887776666', TableNum = '0', CustomerNumMax = '0', EmployeePermanentNum = '0', Status = '2', PercentVat = '7', CustomerApp = '1', ImageUrl = '', StartDate = '2018-02-13 10:16:41  0000', Remark = '', ModifiedUser = 'jill', ModifiedDate = '2018-03-23 22:33:13  0000' where BranchID = '8', modified user: jill
+2018-03-23T22:33:12+07:00 query commit, file: FFDBranchUpdate.php, user: jill
+2018-03-23T22:33:14+07:00 file: FFDBranchGet.php, user: jill
+2018-03-23T22:33:14+07:00 Param=Value: username=MAMARIN7&modifiedDeviceToken=1877301d04f677b7fcc415b7f0bcbd799bf679013b14f76ce746d778087a22f6&modifiedUser=jill&dbName=MAMARIN7&
+2018-03-23T22:33:14+07:00 query success, sql: select * from credentials where username = 'MAMARIN7', modified user: jill
+2018-03-23T22:33:14+07:00 sql = select Branch.*, 1 as IdInserted from credentialsdb left join branch on credentialsdb.dbName = branch.dbName  where credentialsdb.credentialsID = 12

@@ -17,6 +17,199 @@
 		EFB87CEC20C468100011AF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB87CEB20C468100011AF78 /* main.m */; };
 		EFB87CF620C468110011AF78 /* FFDUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB87CF520C468110011AF78 /* FFDUrlTests.m */; };
 		EFB87D0120C468110011AF78 /* FFDUrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB87D0020C468110011AF78 /* FFDUrlUITests.m */; };
+		EFB87DD320C4682E0011AF78 /* urlinsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D0F20C4682E0011AF78 /* urlinsert.php */; };
+		EFB87DD420C4682E0011AF78 /* FFDSubMenuTypeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1020C4682E0011AF78 /* FFDSubMenuTypeDelete.php */; };
+		EFB87DD520C4682E0011AF78 /* FFDRewardProgramInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1120C4682E0011AF78 /* FFDRewardProgramInsert.php */; };
+		EFB87DD620C4682E0011AF78 /* FFDSubIngredientTypeAndIngredientInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1220C4682E0011AF78 /* FFDSubIngredientTypeAndIngredientInsert.php */; };
+		EFB87DD720C4682E0011AF78 /* FFDReceiptCustomerTableInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1320C4682E0011AF78 /* FFDReceiptCustomerTableInsertList.php */; };
+		EFB87DD820C4682E0011AF78 /* FFDMoneyCheckInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1420C4682E0011AF78 /* FFDMoneyCheckInsertList.php */; };
+		EFB87DD920C4682E0011AF78 /* FFDIngredientTypeUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1520C4682E0011AF78 /* FFDIngredientTypeUpdateList.php */; };
+		EFB87DDA20C4682E0011AF78 /* FFDTableTakingUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1620C4682E0011AF78 /* FFDTableTakingUpdate.php */; };
+		EFB87DDB20C4682E0011AF78 /* FFDBranchInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1720C4682E0011AF78 /* FFDBranchInsert.php */; };
+		EFB87DDC20C4682E0011AF78 /* FFDSpecialPriceProgramInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1820C4682E0011AF78 /* FFDSpecialPriceProgramInsertList.php */; };
+		EFB87DDD20C4682E0011AF78 /* FFDSpecialPriceProgramGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1920C4682E0011AF78 /* FFDSpecialPriceProgramGetList.php */; };
+		EFB87DDE20C4682E0011AF78 /* sendEmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1A20C4682E0011AF78 /* sendEmail.php */; };
+		EFB87DDF20C4682E0011AF78 /* testprint.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1B20C4682E0011AF78 /* testprint.html */; };
+		EFB87DE020C4682E0011AF78 /* urlupdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1C20C4682E0011AF78 /* urlupdate.php */; };
+		EFB87DE120C4682E0011AF78 /* FFDRewardProgramUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1D20C4682E0011AF78 /* FFDRewardProgramUpdate.php */; };
+		EFB87DE220C4682E0011AF78 /* FFDIngredientDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1E20C4682E0011AF78 /* FFDIngredientDelete.php */; };
+		EFB87DE320C4682E0011AF78 /* FFDReceiptGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D1F20C4682E0011AF78 /* FFDReceiptGetList.php */; };
+		EFB87DE420C4682E0011AF78 /* FFDIngredientTypeAndSubIngredientTypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2020C4682E0011AF78 /* FFDIngredientTypeAndSubIngredientTypeInsert.php */; };
+		EFB87DE520C4682E0011AF78 /* FFDMenuTypeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2120C4682E0011AF78 /* FFDMenuTypeDelete.php */; };
+		EFB87DE620C4682E0011AF78 /* FFDMasterGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2220C4682E0011AF78 /* FFDMasterGet.php */; };
+		EFB87DE720C4682E0011AF78 /* FFDBranchUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2320C4682E0011AF78 /* FFDBranchUpdate.php */; };
+		EFB87DE820C4682E0011AF78 /* indextest.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2420C4682E0011AF78 /* indextest.php */; };
+		EFB87DE920C4682E0011AF78 /* FFDOrderNoteInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2520C4682E0011AF78 /* FFDOrderNoteInsertList.php */; };
+		EFB87DEA20C4682E0011AF78 /* FFDCredentialsDbGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2620C4682E0011AF78 /* FFDCredentialsDbGet.php */; };
+		EFB87DEB20C4682E0011AF78 /* FFDPushSyncUpdateByDeviceToken.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2720C4682E0011AF78 /* FFDPushSyncUpdateByDeviceToken.php */; };
+		EFB87DEC20C4682E0011AF78 /* FFDMergeReceiptCloseTableInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2820C4682E0011AF78 /* FFDMergeReceiptCloseTableInsert.php */; };
+		EFB87DED20C4682E0011AF78 /* FFDReportSalesEndDayGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2920C4682E0011AF78 /* FFDReportSalesEndDayGetList.php */; };
+		EFB87DEE20C4682E0011AF78 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2A20C4682E0011AF78 /* index.html */; };
+		EFB87DEF20C4682E0011AF78 /* FFDJummumReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2B20C4682E0011AF78 /* FFDJummumReceiptUpdate.php */; };
+		EFB87DF020C4682E0011AF78 /* FFDIngredientReceiveUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2C20C4682E0011AF78 /* FFDIngredientReceiveUpdateList.php */; };
+		EFB87DF120C4682E0011AF78 /* FFDAddressInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2D20C4682E0011AF78 /* FFDAddressInsert.php */; };
+		EFB87DF220C4682E0011AF78 /* FFDMenuInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2E20C4682E0011AF78 /* FFDMenuInsert.php */; };
+		EFB87DF320C4682E0011AF78 /* FFDReportSalesByMemberGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D2F20C4682E0011AF78 /* FFDReportSalesByMemberGetList.php */; };
+		EFB87DF420C4682E0011AF78 /* FFDDiscountInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3020C4682E0011AF78 /* FFDDiscountInsert.php */; };
+		EFB87DF520C4682E0011AF78 /* FFDIngredientReceiveGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3120C4682E0011AF78 /* FFDIngredientReceiveGetList.php */; };
+		EFB87DF620C4682E0011AF78 /* FFDUserAccountUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3220C4682E0011AF78 /* FFDUserAccountUpdate.php */; };
+		EFB87DF720C4682E0011AF78 /* JMMReceiptSummaryGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3320C4682E0011AF78 /* JMMReceiptSummaryGetList.php */; };
+		EFB87DF820C4682E0011AF78 /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3420C4682E0011AF78 /* index.php */; };
+		EFB87DF920C4682E0011AF78 /* FFDReportSalesByMenuGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3520C4682E0011AF78 /* FFDReportSalesByMenuGetList.php */; };
+		EFB87DFA20C4682E0011AF78 /* FFDRewardPointUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3620C4682E0011AF78 /* FFDRewardPointUpdateList.php */; };
+		EFB87DFB20C4682E0011AF78 /* aps_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3820C4682E0011AF78 /* aps_development.cer */; };
+		EFB87DFC20C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3920C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */; };
+		EFB87DFD20C4682E0011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3A20C4682E0011AF78 /* ck.pem */; };
+		EFB87DFE20C4682E0011AF78 /* Certificates.p12 in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3B20C4682E0011AF78 /* Certificates.p12 */; };
+		EFB87DFF20C4682E0011AF78 /* PushCert.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3C20C4682E0011AF78 /* PushCert.pem */; };
+		EFB87E0020C4682E0011AF78 /* PushKey.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3D20C4682E0011AF78 /* PushKey.pem */; };
+		EFB87E0120C4682E0011AF78 /* FFDReportSalesByMenuTypeMonthlyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3E20C4682E0011AF78 /* FFDReportSalesByMenuTypeMonthlyGetList.php */; };
+		EFB87E0220C4682E0011AF78 /* FFDPrinterUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D3F20C4682E0011AF78 /* FFDPrinterUpdate.php */; };
+		EFB87E0320C4682E0011AF78 /* FFDSpecialPriceProgramDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4020C4682E0011AF78 /* FFDSpecialPriceProgramDelete.php */; };
+		EFB87E0420C4682E0011AF78 /* FFDAddressUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4120C4682E0011AF78 /* FFDAddressUpdate.php */; };
+		EFB87E0520C4682E0011AF78 /* FFDDiscountUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4220C4682E0011AF78 /* FFDDiscountUpdate.php */; };
+		EFB87E0620C4682E0011AF78 /* FFDMenuUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4320C4682E0011AF78 /* FFDMenuUpdate.php */; };
+		EFB87E0720C4682E0011AF78 /* FFDOrderCancelDiscountOrderTakingInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4420C4682E0011AF78 /* FFDOrderCancelDiscountOrderTakingInsertList.php */; };
+		EFB87E0820C4682E0011AF78 /* FFDPaySplitBillInsertAfterFirstTime.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4520C4682E0011AF78 /* FFDPaySplitBillInsertAfterFirstTime.php */; };
+		EFB87E0920C4682E0011AF78 /* FFDUserAccountInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4620C4682E0011AF78 /* FFDUserAccountInsert.php */; };
+		EFB87E0A20C4682E0011AF78 /* FFDLogInInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4720C4682E0011AF78 /* FFDLogInInsert.php */; };
+		EFB87E0B20C4682E0011AF78 /* FFDRewardProgramGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4820C4682E0011AF78 /* FFDRewardProgramGetList.php */; };
+		EFB87E0C20C4682E0011AF78 /* testcolumntype.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4920C4682E0011AF78 /* testcolumntype.php */; };
+		EFB87E0D20C4682E0011AF78 /* FFDRoleTabMenuDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4A20C4682E0011AF78 /* FFDRoleTabMenuDeleteList.php */; };
+		EFB87E0E20C4682E0011AF78 /* urlinsertlistprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4B20C4682E0011AF78 /* urlinsertlistprefix.php */; };
+		EFB87E0F20C4682E0011AF78 /* transactionLog20180323.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4C20C4682E0011AF78 /* transactionLog20180323.log */; };
+		EFB87E1020C4682E0011AF78 /* FFDBranchGet.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4D20C4682E0011AF78 /* FFDBranchGet.php */; };
+		EFB87E1120C4682E0011AF78 /* testwritelog.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4E20C4682E0011AF78 /* testwritelog.php */; };
+		EFB87E1220C4682E0011AF78 /* urlupdatelistprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D4F20C4682E0011AF78 /* urlupdatelistprefix.php */; };
+		EFB87E1320C4682E0011AF78 /* FFDOrderCancelDiscountInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5020C4682E0011AF78 /* FFDOrderCancelDiscountInsert.php */; };
+		EFB87E1420C4682E0011AF78 /* transactionLog20180518.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5120C4682E0011AF78 /* transactionLog20180518.log */; };
+		EFB87E1520C4682E0011AF78 /* FFDOrderTakingUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5220C4682E0011AF78 /* FFDOrderTakingUpdateList.php */; };
+		EFB87E1620C4682E0011AF78 /* FFDReceiptUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5320C4682E0011AF78 /* FFDReceiptUpdate.php */; };
+		EFB87E1720C4682E0011AF78 /* FFDMenuIngredientDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5420C4682E0011AF78 /* FFDMenuIngredientDelete.php */; };
+		EFB87E1820C4682E0011AF78 /* FFDMenuIngredientInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5520C4682E0011AF78 /* FFDMenuIngredientInsertList.php */; };
+		EFB87E1920C4682E0011AF78 /* emailTemplateCheckMoneyClose.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5620C4682E0011AF78 /* emailTemplateCheckMoneyClose.html */; };
+		EFB87E1A20C4682E0011AF78 /* FFDBoardUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5720C4682E0011AF78 /* FFDBoardUpdate.php */; };
+		EFB87E1B20C4682E0011AF78 /* FFDTableTakingReceiptOrderTakingListUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5820C4682E0011AF78 /* FFDTableTakingReceiptOrderTakingListUpdate.php */; };
+		EFB87E1C20C4682E0011AF78 /* FFDOrderTakingInsertUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5920C4682E0011AF78 /* FFDOrderTakingInsertUpdate.php */; };
+		EFB87E1D20C4682E0011AF78 /* FFDIngredientTypeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5A20C4682E0011AF78 /* FFDIngredientTypeDelete.php */; };
+		EFB87E1E20C4682E0011AF78 /* FFDSubMenuTypeUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5B20C4682E0011AF78 /* FFDSubMenuTypeUpdateList.php */; };
+		EFB87E1F20C4682E0011AF78 /* FFDSubMenuTypeAndMenuInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5C20C4682E0011AF78 /* FFDSubMenuTypeAndMenuInsert.php */; };
+		EFB87E2020C4682E0011AF78 /* FFDOrderCancelDiscountInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5D20C4682E0011AF78 /* FFDOrderCancelDiscountInsertList.php */; };
+		EFB87E2120C4682E0011AF78 /* FFDIngredientReceiveDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5E20C4682E0011AF78 /* FFDIngredientReceiveDeleteList.php */; };
+		EFB87E2220C4682E0011AF78 /* tabmenu.psd in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D5F20C4682E0011AF78 /* tabmenu.psd */; };
+		EFB87E2320C4682E0011AF78 /* aps_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6120C4682E0011AF78 /* aps_development.cer */; };
+		EFB87E2420C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6220C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */; };
+		EFB87E2520C4682E0011AF78 /* ck.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6320C4682E0011AF78 /* ck.pem */; };
+		EFB87E2620C4682E0011AF78 /* Certificates.p12 in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6420C4682E0011AF78 /* Certificates.p12 */; };
+		EFB87E2720C4682E0011AF78 /* PushCert.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6520C4682E0011AF78 /* PushCert.pem */; };
+		EFB87E2820C4682E0011AF78 /* PushKey.pem in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6620C4682E0011AF78 /* PushKey.pem */; };
+		EFB87E2920C4682E0011AF78 /* FFDPaySplitBillInsertWithoutReceipt.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6720C4682E0011AF78 /* FFDPaySplitBillInsertWithoutReceipt.php */; };
+		EFB87E2A20C4682E0011AF78 /* FFDSettingUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6820C4682E0011AF78 /* FFDSettingUpdate.php */; };
+		EFB87E2B20C4682E0011AF78 /* transactionLog20180523.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6920C4682E0011AF78 /* transactionLog20180523.log */; };
+		EFB87E2C20C4682E0011AF78 /* testpush.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6A20C4682E0011AF78 /* testpush.php */; };
+		EFB87E2D20C4682E0011AF78 /* transactionLog20180325.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6B20C4682E0011AF78 /* transactionLog20180325.log */; };
+		EFB87E2E20C4682E0011AF78 /* FFDIngredientCheckInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6C20C4682E0011AF78 /* FFDIngredientCheckInsertList.php */; };
+		EFB87E2F20C4682E0011AF78 /* transactionLog20180324.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6D20C4682E0011AF78 /* transactionLog20180324.log */; };
+		EFB87E3020C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php */; };
+		EFB87E3120C4682E0011AF78 /* transactionLog20180520.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D6F20C4682E0011AF78 /* transactionLog20180520.log */; };
+		EFB87E3220C4682E0011AF78 /* FFDIngredientCheckGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7020C4682E0011AF78 /* FFDIngredientCheckGetList.php */; };
+		EFB87E3320C4682E0011AF78 /* FFDRewardPointDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7120C4682E0011AF78 /* FFDRewardPointDeleteList.php */; };
+		EFB87E3420C4682E0011AF78 /* FFDSubIngredientTypeDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7220C4682E0011AF78 /* FFDSubIngredientTypeDelete.php */; };
+		EFB87E3520C4682E0011AF78 /* FFDReportSalesAllMonthlyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7320C4682E0011AF78 /* FFDReportSalesAllMonthlyGetList.php */; };
+		EFB87E3620C4682E0011AF78 /* FFDReceiptAndReceiptNoTaxPrintInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7420C4682E0011AF78 /* FFDReceiptAndReceiptNoTaxPrintInsert.php */; };
+		EFB87E3720C4682E0011AF78 /* FFDTableTakingInsertUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7520C4682E0011AF78 /* FFDTableTakingInsertUpdate.php */; };
+		EFB87E3820C4682E0011AF78 /* FFDReportSalesAllDailyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7620C4682E0011AF78 /* FFDReportSalesAllDailyGetList.php */; };
+		EFB87E3920C4682E0011AF78 /* mamarinReceiptLogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7820C4682E0011AF78 /* mamarinReceiptLogo2.png */; };
+		EFB87E3A20C4682E0011AF78 /* FFDOrderTakingDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7920C4682E0011AF78 /* FFDOrderTakingDelete.php */; };
+		EFB87E3B20C4682E0011AF78 /* FFDReportSalesByMenuTypeWeeklyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7A20C4682E0011AF78 /* FFDReportSalesByMenuTypeWeeklyGetList.php */; };
+		EFB87E3C20C4682E0011AF78 /* FFDPaySplitBillInsertLastOne.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7B20C4682E0011AF78 /* FFDPaySplitBillInsertLastOne.php */; };
+		EFB87E3D20C4682E0011AF78 /* urlupdatelist.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7C20C4682E0011AF78 /* urlupdatelist.php */; };
+		EFB87E3E20C4682E0011AF78 /* FFDTableTakingWithCustomerTableDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7D20C4682E0011AF78 /* FFDTableTakingWithCustomerTableDelete.php */; };
+		EFB87E3F20C4682E0011AF78 /* FFDMenuGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7E20C4682E0011AF78 /* FFDMenuGetList.php */; };
+		EFB87E4020C4682E0011AF78 /* FFDDeviceInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D7F20C4682E0011AF78 /* FFDDeviceInsert.php */; };
+		EFB87E4120C4682E0011AF78 /* FFDSpecialPriceProgramInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8020C4682E0011AF78 /* FFDSpecialPriceProgramInsert.php */; };
+		EFB87E4220C4682E0011AF78 /* dbConnect.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8120C4682E0011AF78 /* dbConnect.php */; };
+		EFB87E4320C4682E0011AF78 /* test.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8220C4682E0011AF78 /* test.php */; };
+		EFB87E4420C4682E0011AF78 /* FFDPushSyncUpdateTimeSynced.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8320C4682E0011AF78 /* FFDPushSyncUpdateTimeSynced.php */; };
+		EFB87E4520C4682E0011AF78 /* FFDDiscountDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8420C4682E0011AF78 /* FFDDiscountDelete.php */; };
+		EFB87E4620C4682E0011AF78 /* FFDMenuDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8520C4682E0011AF78 /* FFDMenuDelete.php */; };
+		EFB87E4720C4682E0011AF78 /* FFDReceiptBackUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8620C4682E0011AF78 /* FFDReceiptBackUpdate.php */; };
+		EFB87E4820C4682E0011AF78 /* FFDReceiptCloseTableUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8720C4682E0011AF78 /* FFDReceiptCloseTableUpdate.php */; };
+		EFB87E4920C4682E0011AF78 /* FFDTableTakingOrderTakingReceiptUpdateDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8820C4682E0011AF78 /* FFDTableTakingOrderTakingReceiptUpdateDelete.php */; };
+		EFB87E4A20C4682E0011AF78 /* FFDJummumReceiptGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8920C4682E0011AF78 /* FFDJummumReceiptGetList.php */; };
+		EFB87E4B20C4682E0011AF78 /* FFDMenuAndMenuIngredientInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8A20C4682E0011AF78 /* FFDMenuAndMenuIngredientInsertList.php */; };
+		EFB87E4C20C4682E0011AF78 /* FFDSpecialPriceProgramUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8B20C4682E0011AF78 /* FFDSpecialPriceProgramUpdate.php */; };
+		EFB87E4D20C4682E0011AF78 /* FFDSubIngredientTypeUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8C20C4682E0011AF78 /* FFDSubIngredientTypeUpdateList.php */; };
+		EFB87E4E20C4682E0011AF78 /* FFDAddressDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8D20C4682E0011AF78 /* FFDAddressDelete.php */; };
+		EFB87E4F20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php */; };
+		EFB87E5020C4682E0011AF78 /* FFDRewardPointDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D8F20C4682E0011AF78 /* FFDRewardPointDelete.php */; };
+		EFB87E5120C4682E0011AF78 /* FFDReceiptCustomerTableDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9020C4682E0011AF78 /* FFDReceiptCustomerTableDeleteList.php */; };
+		EFB87E5220C4682E0011AF78 /* FFDAddressUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9120C4682E0011AF78 /* FFDAddressUpdateList.php */; };
+		EFB87E5320C4682E0011AF78 /* FFDMenutypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9220C4682E0011AF78 /* FFDMenutypeInsert.php */; };
+		EFB87E5420C4682E0011AF78 /* JMMDisputeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9320C4682E0011AF78 /* JMMDisputeInsert.php */; };
+		EFB87E5520C4682E0011AF78 /* FFDUserAccountDeviceTokenUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9420C4682E0011AF78 /* FFDUserAccountDeviceTokenUpdate.php */; };
+		EFB87E5620C4682E0011AF78 /* FFDSpecialPriceProgramDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9520C4682E0011AF78 /* FFDSpecialPriceProgramDeleteList.php */; };
+		EFB87E5720C4682F0011AF78 /* FFDMenuUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9620C4682E0011AF78 /* FFDMenuUpdateList.php */; };
+		EFB87E5820C4682F0011AF78 /* FFDSubMenuTypeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9720C4682E0011AF78 /* FFDSubMenuTypeUpdate.php */; };
+		EFB87E5920C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9820C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php */; };
+		EFB87E5A20C4682F0011AF78 /* FFDIngredientInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9920C4682E0011AF78 /* FFDIngredientInsert.php */; };
+		EFB87E5B20C4682F0011AF78 /* FFDMoveOrderUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9A20C4682E0011AF78 /* FFDMoveOrderUpdate.php */; };
+		EFB87E5C20C4682F0011AF78 /* FFDOrderCancelDiscountUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9B20C4682E0011AF78 /* FFDOrderCancelDiscountUpdateList.php */; };
+		EFB87E5D20C4682F0011AF78 /* FFDMenuTypeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9C20C4682E0011AF78 /* FFDMenuTypeUpdate.php */; };
+		EFB87E5E20C4682F0011AF78 /* FFDReceiptPrintInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9D20C4682E0011AF78 /* FFDReceiptPrintInsertList.php */; };
+		EFB87E5F20C4682F0011AF78 /* FFDOrderNoteDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9E20C4682E0011AF78 /* FFDOrderNoteDeleteList.php */; };
+		EFB87E6020C4682F0011AF78 /* urlinsertprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87D9F20C4682E0011AF78 /* urlinsertprefix.php */; };
+		EFB87E6120C4682F0011AF78 /* FFDCredentialsValidate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA020C4682E0011AF78 /* FFDCredentialsValidate.php */; };
+		EFB87E6220C4682F0011AF78 /* FFDRewardProgramDelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA120C4682E0011AF78 /* FFDRewardProgramDelete.php */; };
+		EFB87E6320C4682F0011AF78 /* FFDSubMenuTypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA220C4682E0011AF78 /* FFDSubMenuTypeInsert.php */; };
+		EFB87E6420C4682F0011AF78 /* urldelete.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA320C4682E0011AF78 /* urldelete.php */; };
+		EFB87E6520C4682F0011AF78 /* FFDMenuTypeGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA420C4682E0011AF78 /* FFDMenuTypeGetList.php */; };
+		EFB87E6620C4682F0011AF78 /* tabButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA520C4682E0011AF78 /* tabButton.psd */; };
+		EFB87E6720C4682F0011AF78 /* FFDMoveOrderInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA620C4682E0011AF78 /* FFDMoveOrderInsert.php */; };
+		EFB87E6820C4682F0011AF78 /* urlupdateprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA720C4682E0011AF78 /* urlupdateprefix.php */; };
+		EFB87E6920C4682F0011AF78 /* FFDIngredientUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA820C4682E0011AF78 /* FFDIngredientUpdate.php */; };
+		EFB87E6A20C4682F0011AF78 /* FFDSubIngredientTypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DA920C4682E0011AF78 /* FFDSubIngredientTypeInsert.php */; };
+		EFB87E6B20C4682F0011AF78 /* FFDDiscountGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DAA20C4682E0011AF78 /* FFDDiscountGetList.php */; };
+		EFB87E6C20C4682F0011AF78 /* FFDPaySplitBillInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DAB20C4682E0011AF78 /* FFDPaySplitBillInsert.php */; };
+		EFB87E6D20C4682F0011AF78 /* FFDIngredientReceiveInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DAC20C4682E0011AF78 /* FFDIngredientReceiveInsertList.php */; };
+		EFB87E6E20C4682F0011AF78 /* urldeletelist.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DAD20C4682E0011AF78 /* urldeletelist.php */; };
+		EFB87E6F20C4682F0011AF78 /* FFDSubIngredientTypeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DAE20C4682E0011AF78 /* FFDSubIngredientTypeUpdate.php */; };
+		EFB87E7020C4682F0011AF78 /* CustomerKitchenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB87DAF20C4682E0011AF78 /* CustomerKitchenViewController.m */; };
+		EFB87E7120C4682F0011AF78 /* createDbAndTable.sql in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB020C4682E0011AF78 /* createDbAndTable.sql */; };
+		EFB87E7220C4682F0011AF78 /* FFDSettingUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB120C4682E0011AF78 /* FFDSettingUpdateList.php */; };
+		EFB87E7320C4682F0011AF78 /* FFDMoneyCheckInsertListAndSendEmail.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB220C4682E0011AF78 /* FFDMoneyCheckInsertListAndSendEmail.php */; };
+		EFB87E7420C4682F0011AF78 /* FFDOrderTakingUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB320C4682E0011AF78 /* FFDOrderTakingUpdate.php */; };
+		EFB87E7520C4682F0011AF78 /* FFDReportSalesTransactionGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB420C4682E0011AF78 /* FFDReportSalesTransactionGetList.php */; };
+		EFB87E7620C4682F0011AF78 /* FFDIngredientNeededGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB520C4682E0011AF78 /* FFDIngredientNeededGetList.php */; };
+		EFB87E7720C4682F0011AF78 /* modelm.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB620C4682E0011AF78 /* modelm.php */; };
+		EFB87E7820C4682F0011AF78 /* urldeletelistprefix.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB720C4682E0011AF78 /* urldeletelistprefix.php */; };
+		EFB87E7920C4682F0011AF78 /* FFDRewardPointInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB820C4682E0011AF78 /* FFDRewardPointInsertList.php */; };
+		EFB87E7A20C4682F0011AF78 /* FFDMenutypeAndSubMenuTypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DB920C4682E0011AF78 /* FFDMenutypeAndSubMenuTypeInsert.php */; };
+		EFB87E7B20C4682F0011AF78 /* FFDIngredientTypeGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBA20C4682E0011AF78 /* FFDIngredientTypeGetList.php */; };
+		EFB87E7C20C4682F0011AF78 /* FFDSpecialPriceProgramUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBB20C4682E0011AF78 /* FFDSpecialPriceProgramUpdateList.php */; };
+		EFB87E7D20C4682F0011AF78 /* FFDWriteLog.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBC20C4682E0011AF78 /* FFDWriteLog.php */; };
+		EFB87E7E20C4682F0011AF78 /* FFDMenuTypeUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBD20C4682E0011AF78 /* FFDMenuTypeUpdateList.php */; };
+		EFB87E7F20C4682F0011AF78 /* FFDIngredientTypeInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBE20C4682E0011AF78 /* FFDIngredientTypeInsert.php */; };
+		EFB87E8020C4682F0011AF78 /* transactionLog20180429.log in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DBF20C4682E0011AF78 /* transactionLog20180429.log */; };
+		EFB87E8120C4682F0011AF78 /* compare2.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC020C4682E0011AF78 /* compare2.php */; };
+		EFB87E8220C4682F0011AF78 /* FFDReportSalesByMenuTypeDailyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC120C4682E0011AF78 /* FFDReportSalesByMenuTypeDailyGetList.php */; };
+		EFB87E8320C4682F0011AF78 /* FFDPushSyncSync.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC220C4682E0011AF78 /* FFDPushSyncSync.php */; };
+		EFB87E8420C4682F0011AF78 /* FFDMenuIngredientUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC320C4682E0011AF78 /* FFDMenuIngredientUpdate.php */; };
+		EFB87E8520C4682F0011AF78 /* FFDMemberInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC420C4682E0011AF78 /* FFDMemberInsert.php */; };
+		EFB87E8620C4682F0011AF78 /* FFDRoleTabMenuInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC520C4682E0011AF78 /* FFDRoleTabMenuInsertList.php */; };
+		EFB87E8720C4682F0011AF78 /* modelh.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC620C4682E0011AF78 /* modelh.php */; };
+		EFB87E8820C4682F0011AF78 /* FFDIngredientGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC720C4682E0011AF78 /* FFDIngredientGetList.php */; };
+		EFB87E8920C4682F0011AF78 /* FFDIngredientUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC820C4682E0011AF78 /* FFDIngredientUpdateList.php */; };
+		EFB87E8A20C4682F0011AF78 /* emailTemplateCheckMoneyOpen.html in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DC920C4682E0011AF78 /* emailTemplateCheckMoneyOpen.html */; };
+		EFB87E8B20C4682F0011AF78 /* FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCA20C4682E0011AF78 /* FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php */; };
+		EFB87E8C20C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCB20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php */; };
+		EFB87E8D20C4682F0011AF78 /* JMMDisputeReasonGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCC20C4682E0011AF78 /* JMMDisputeReasonGetList.php */; };
+		EFB87E8E20C4682F0011AF78 /* FFDIngredientTypeUpdate.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCD20C4682E0011AF78 /* FFDIngredientTypeUpdate.php */; };
+		EFB87E8F20C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCE20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php */; };
+		EFB87E9020C4682F0011AF78 /* compare1.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DCF20C4682E0011AF78 /* compare1.php */; };
+		EFB87E9120C4682F0011AF78 /* FFDMenuIngredientInsert.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DD020C4682E0011AF78 /* FFDMenuIngredientInsert.php */; };
+		EFB87E9220C4682F0011AF78 /* FFDOrderCancelDiscountDeleteList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DD120C4682E0011AF78 /* FFDOrderCancelDiscountDeleteList.php */; };
+		EFB87E9320C4682F0011AF78 /* FFDReportSalesAllWeeklyGetList.php in Resources */ = {isa = PBXBuildFile; fileRef = EFB87DD220C4682E0011AF78 /* FFDReportSalesAllWeeklyGetList.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +250,199 @@
 		EFB87CFC20C468110011AF78 /* FFDUrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFDUrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB87D0020C468110011AF78 /* FFDUrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFDUrlUITests.m; sourceTree = "<group>"; };
 		EFB87D0220C468110011AF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB87D0F20C4682E0011AF78 /* urlinsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsert.php; sourceTree = "<group>"; };
+		EFB87D1020C4682E0011AF78 /* FFDSubMenuTypeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubMenuTypeDelete.php; sourceTree = "<group>"; };
+		EFB87D1120C4682E0011AF78 /* FFDRewardProgramInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardProgramInsert.php; sourceTree = "<group>"; };
+		EFB87D1220C4682E0011AF78 /* FFDSubIngredientTypeAndIngredientInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubIngredientTypeAndIngredientInsert.php; sourceTree = "<group>"; };
+		EFB87D1320C4682E0011AF78 /* FFDReceiptCustomerTableInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptCustomerTableInsertList.php; sourceTree = "<group>"; };
+		EFB87D1420C4682E0011AF78 /* FFDMoneyCheckInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMoneyCheckInsertList.php; sourceTree = "<group>"; };
+		EFB87D1520C4682E0011AF78 /* FFDIngredientTypeUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeUpdateList.php; sourceTree = "<group>"; };
+		EFB87D1620C4682E0011AF78 /* FFDTableTakingUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDTableTakingUpdate.php; sourceTree = "<group>"; };
+		EFB87D1720C4682E0011AF78 /* FFDBranchInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDBranchInsert.php; sourceTree = "<group>"; };
+		EFB87D1820C4682E0011AF78 /* FFDSpecialPriceProgramInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramInsertList.php; sourceTree = "<group>"; };
+		EFB87D1920C4682E0011AF78 /* FFDSpecialPriceProgramGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramGetList.php; sourceTree = "<group>"; };
+		EFB87D1A20C4682E0011AF78 /* sendEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = sendEmail.php; sourceTree = "<group>"; };
+		EFB87D1B20C4682E0011AF78 /* testprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testprint.html; sourceTree = "<group>"; };
+		EFB87D1C20C4682E0011AF78 /* urlupdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlupdate.php; sourceTree = "<group>"; };
+		EFB87D1D20C4682E0011AF78 /* FFDRewardProgramUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardProgramUpdate.php; sourceTree = "<group>"; };
+		EFB87D1E20C4682E0011AF78 /* FFDIngredientDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientDelete.php; sourceTree = "<group>"; };
+		EFB87D1F20C4682E0011AF78 /* FFDReceiptGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptGetList.php; sourceTree = "<group>"; };
+		EFB87D2020C4682E0011AF78 /* FFDIngredientTypeAndSubIngredientTypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeAndSubIngredientTypeInsert.php; sourceTree = "<group>"; };
+		EFB87D2120C4682E0011AF78 /* FFDMenuTypeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuTypeDelete.php; sourceTree = "<group>"; };
+		EFB87D2220C4682E0011AF78 /* FFDMasterGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMasterGet.php; sourceTree = "<group>"; };
+		EFB87D2320C4682E0011AF78 /* FFDBranchUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDBranchUpdate.php; sourceTree = "<group>"; };
+		EFB87D2420C4682E0011AF78 /* indextest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = indextest.php; sourceTree = "<group>"; };
+		EFB87D2520C4682E0011AF78 /* FFDOrderNoteInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderNoteInsertList.php; sourceTree = "<group>"; };
+		EFB87D2620C4682E0011AF78 /* FFDCredentialsDbGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDCredentialsDbGet.php; sourceTree = "<group>"; };
+		EFB87D2720C4682E0011AF78 /* FFDPushSyncUpdateByDeviceToken.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPushSyncUpdateByDeviceToken.php; sourceTree = "<group>"; };
+		EFB87D2820C4682E0011AF78 /* FFDMergeReceiptCloseTableInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMergeReceiptCloseTableInsert.php; sourceTree = "<group>"; };
+		EFB87D2920C4682E0011AF78 /* FFDReportSalesEndDayGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesEndDayGetList.php; sourceTree = "<group>"; };
+		EFB87D2A20C4682E0011AF78 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EFB87D2B20C4682E0011AF78 /* FFDJummumReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDJummumReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB87D2C20C4682E0011AF78 /* FFDIngredientReceiveUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientReceiveUpdateList.php; sourceTree = "<group>"; };
+		EFB87D2D20C4682E0011AF78 /* FFDAddressInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDAddressInsert.php; sourceTree = "<group>"; };
+		EFB87D2E20C4682E0011AF78 /* FFDMenuInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuInsert.php; sourceTree = "<group>"; };
+		EFB87D2F20C4682E0011AF78 /* FFDReportSalesByMemberGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesByMemberGetList.php; sourceTree = "<group>"; };
+		EFB87D3020C4682E0011AF78 /* FFDDiscountInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDDiscountInsert.php; sourceTree = "<group>"; };
+		EFB87D3120C4682E0011AF78 /* FFDIngredientReceiveGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientReceiveGetList.php; sourceTree = "<group>"; };
+		EFB87D3220C4682E0011AF78 /* FFDUserAccountUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDUserAccountUpdate.php; sourceTree = "<group>"; };
+		EFB87D3320C4682E0011AF78 /* JMMReceiptSummaryGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = JMMReceiptSummaryGetList.php; sourceTree = "<group>"; };
+		EFB87D3420C4682E0011AF78 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		EFB87D3520C4682E0011AF78 /* FFDReportSalesByMenuGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesByMenuGetList.php; sourceTree = "<group>"; };
+		EFB87D3620C4682E0011AF78 /* FFDRewardPointUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardPointUpdateList.php; sourceTree = "<group>"; };
+		EFB87D3820C4682E0011AF78 /* aps_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = aps_development.cer; sourceTree = "<group>"; };
+		EFB87D3920C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		EFB87D3A20C4682E0011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB87D3B20C4682E0011AF78 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		EFB87D3C20C4682E0011AF78 /* PushCert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushCert.pem; sourceTree = "<group>"; };
+		EFB87D3D20C4682E0011AF78 /* PushKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushKey.pem; sourceTree = "<group>"; };
+		EFB87D3E20C4682E0011AF78 /* FFDReportSalesByMenuTypeMonthlyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesByMenuTypeMonthlyGetList.php; sourceTree = "<group>"; };
+		EFB87D3F20C4682E0011AF78 /* FFDPrinterUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPrinterUpdate.php; sourceTree = "<group>"; };
+		EFB87D4020C4682E0011AF78 /* FFDSpecialPriceProgramDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramDelete.php; sourceTree = "<group>"; };
+		EFB87D4120C4682E0011AF78 /* FFDAddressUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDAddressUpdate.php; sourceTree = "<group>"; };
+		EFB87D4220C4682E0011AF78 /* FFDDiscountUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDDiscountUpdate.php; sourceTree = "<group>"; };
+		EFB87D4320C4682E0011AF78 /* FFDMenuUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuUpdate.php; sourceTree = "<group>"; };
+		EFB87D4420C4682E0011AF78 /* FFDOrderCancelDiscountOrderTakingInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderCancelDiscountOrderTakingInsertList.php; sourceTree = "<group>"; };
+		EFB87D4520C4682E0011AF78 /* FFDPaySplitBillInsertAfterFirstTime.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPaySplitBillInsertAfterFirstTime.php; sourceTree = "<group>"; };
+		EFB87D4620C4682E0011AF78 /* FFDUserAccountInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDUserAccountInsert.php; sourceTree = "<group>"; };
+		EFB87D4720C4682E0011AF78 /* FFDLogInInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDLogInInsert.php; sourceTree = "<group>"; };
+		EFB87D4820C4682E0011AF78 /* FFDRewardProgramGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardProgramGetList.php; sourceTree = "<group>"; };
+		EFB87D4920C4682E0011AF78 /* testcolumntype.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testcolumntype.php; sourceTree = "<group>"; };
+		EFB87D4A20C4682E0011AF78 /* FFDRoleTabMenuDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRoleTabMenuDeleteList.php; sourceTree = "<group>"; };
+		EFB87D4B20C4682E0011AF78 /* urlinsertlistprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertlistprefix.php; sourceTree = "<group>"; };
+		EFB87D4C20C4682E0011AF78 /* transactionLog20180323.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180323.log; sourceTree = "<group>"; };
+		EFB87D4D20C4682E0011AF78 /* FFDBranchGet.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDBranchGet.php; sourceTree = "<group>"; };
+		EFB87D4E20C4682E0011AF78 /* testwritelog.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testwritelog.php; sourceTree = "<group>"; };
+		EFB87D4F20C4682E0011AF78 /* urlupdatelistprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlupdatelistprefix.php; sourceTree = "<group>"; };
+		EFB87D5020C4682E0011AF78 /* FFDOrderCancelDiscountInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderCancelDiscountInsert.php; sourceTree = "<group>"; };
+		EFB87D5120C4682E0011AF78 /* transactionLog20180518.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180518.log; sourceTree = "<group>"; };
+		EFB87D5220C4682E0011AF78 /* FFDOrderTakingUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingUpdateList.php; sourceTree = "<group>"; };
+		EFB87D5320C4682E0011AF78 /* FFDReceiptUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptUpdate.php; sourceTree = "<group>"; };
+		EFB87D5420C4682E0011AF78 /* FFDMenuIngredientDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuIngredientDelete.php; sourceTree = "<group>"; };
+		EFB87D5520C4682E0011AF78 /* FFDMenuIngredientInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuIngredientInsertList.php; sourceTree = "<group>"; };
+		EFB87D5620C4682E0011AF78 /* emailTemplateCheckMoneyClose.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = emailTemplateCheckMoneyClose.html; sourceTree = "<group>"; };
+		EFB87D5720C4682E0011AF78 /* FFDBoardUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDBoardUpdate.php; sourceTree = "<group>"; };
+		EFB87D5820C4682E0011AF78 /* FFDTableTakingReceiptOrderTakingListUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDTableTakingReceiptOrderTakingListUpdate.php; sourceTree = "<group>"; };
+		EFB87D5920C4682E0011AF78 /* FFDOrderTakingInsertUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingInsertUpdate.php; sourceTree = "<group>"; };
+		EFB87D5A20C4682E0011AF78 /* FFDIngredientTypeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeDelete.php; sourceTree = "<group>"; };
+		EFB87D5B20C4682E0011AF78 /* FFDSubMenuTypeUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubMenuTypeUpdateList.php; sourceTree = "<group>"; };
+		EFB87D5C20C4682E0011AF78 /* FFDSubMenuTypeAndMenuInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubMenuTypeAndMenuInsert.php; sourceTree = "<group>"; };
+		EFB87D5D20C4682E0011AF78 /* FFDOrderCancelDiscountInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderCancelDiscountInsertList.php; sourceTree = "<group>"; };
+		EFB87D5E20C4682E0011AF78 /* FFDIngredientReceiveDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientReceiveDeleteList.php; sourceTree = "<group>"; };
+		EFB87D5F20C4682E0011AF78 /* tabmenu.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = tabmenu.psd; sourceTree = "<group>"; };
+		EFB87D6120C4682E0011AF78 /* aps_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = aps_development.cer; sourceTree = "<group>"; };
+		EFB87D6220C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		EFB87D6320C4682E0011AF78 /* ck.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		EFB87D6420C4682E0011AF78 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		EFB87D6520C4682E0011AF78 /* PushCert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushCert.pem; sourceTree = "<group>"; };
+		EFB87D6620C4682E0011AF78 /* PushKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushKey.pem; sourceTree = "<group>"; };
+		EFB87D6720C4682E0011AF78 /* FFDPaySplitBillInsertWithoutReceipt.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPaySplitBillInsertWithoutReceipt.php; sourceTree = "<group>"; };
+		EFB87D6820C4682E0011AF78 /* FFDSettingUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSettingUpdate.php; sourceTree = "<group>"; };
+		EFB87D6920C4682E0011AF78 /* transactionLog20180523.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180523.log; sourceTree = "<group>"; };
+		EFB87D6A20C4682E0011AF78 /* testpush.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = testpush.php; sourceTree = "<group>"; };
+		EFB87D6B20C4682E0011AF78 /* transactionLog20180325.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180325.log; sourceTree = "<group>"; };
+		EFB87D6C20C4682E0011AF78 /* FFDIngredientCheckInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientCheckInsertList.php; sourceTree = "<group>"; };
+		EFB87D6D20C4682E0011AF78 /* transactionLog20180324.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180324.log; sourceTree = "<group>"; };
+		EFB87D6E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php; sourceTree = "<group>"; };
+		EFB87D6F20C4682E0011AF78 /* transactionLog20180520.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180520.log; sourceTree = "<group>"; };
+		EFB87D7020C4682E0011AF78 /* FFDIngredientCheckGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientCheckGetList.php; sourceTree = "<group>"; };
+		EFB87D7120C4682E0011AF78 /* FFDRewardPointDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardPointDeleteList.php; sourceTree = "<group>"; };
+		EFB87D7220C4682E0011AF78 /* FFDSubIngredientTypeDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubIngredientTypeDelete.php; sourceTree = "<group>"; };
+		EFB87D7320C4682E0011AF78 /* FFDReportSalesAllMonthlyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesAllMonthlyGetList.php; sourceTree = "<group>"; };
+		EFB87D7420C4682E0011AF78 /* FFDReceiptAndReceiptNoTaxPrintInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptAndReceiptNoTaxPrintInsert.php; sourceTree = "<group>"; };
+		EFB87D7520C4682E0011AF78 /* FFDTableTakingInsertUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDTableTakingInsertUpdate.php; sourceTree = "<group>"; };
+		EFB87D7620C4682E0011AF78 /* FFDReportSalesAllDailyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesAllDailyGetList.php; sourceTree = "<group>"; };
+		EFB87D7820C4682E0011AF78 /* mamarinReceiptLogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mamarinReceiptLogo2.png; sourceTree = "<group>"; };
+		EFB87D7920C4682E0011AF78 /* FFDOrderTakingDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingDelete.php; sourceTree = "<group>"; };
+		EFB87D7A20C4682E0011AF78 /* FFDReportSalesByMenuTypeWeeklyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesByMenuTypeWeeklyGetList.php; sourceTree = "<group>"; };
+		EFB87D7B20C4682E0011AF78 /* FFDPaySplitBillInsertLastOne.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPaySplitBillInsertLastOne.php; sourceTree = "<group>"; };
+		EFB87D7C20C4682E0011AF78 /* urlupdatelist.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlupdatelist.php; sourceTree = "<group>"; };
+		EFB87D7D20C4682E0011AF78 /* FFDTableTakingWithCustomerTableDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDTableTakingWithCustomerTableDelete.php; sourceTree = "<group>"; };
+		EFB87D7E20C4682E0011AF78 /* FFDMenuGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuGetList.php; sourceTree = "<group>"; };
+		EFB87D7F20C4682E0011AF78 /* FFDDeviceInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDDeviceInsert.php; sourceTree = "<group>"; };
+		EFB87D8020C4682E0011AF78 /* FFDSpecialPriceProgramInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramInsert.php; sourceTree = "<group>"; };
+		EFB87D8120C4682E0011AF78 /* dbConnect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = dbConnect.php; sourceTree = "<group>"; };
+		EFB87D8220C4682E0011AF78 /* test.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = test.php; sourceTree = "<group>"; };
+		EFB87D8320C4682E0011AF78 /* FFDPushSyncUpdateTimeSynced.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPushSyncUpdateTimeSynced.php; sourceTree = "<group>"; };
+		EFB87D8420C4682E0011AF78 /* FFDDiscountDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDDiscountDelete.php; sourceTree = "<group>"; };
+		EFB87D8520C4682E0011AF78 /* FFDMenuDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuDelete.php; sourceTree = "<group>"; };
+		EFB87D8620C4682E0011AF78 /* FFDReceiptBackUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptBackUpdate.php; sourceTree = "<group>"; };
+		EFB87D8720C4682E0011AF78 /* FFDReceiptCloseTableUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptCloseTableUpdate.php; sourceTree = "<group>"; };
+		EFB87D8820C4682E0011AF78 /* FFDTableTakingOrderTakingReceiptUpdateDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDTableTakingOrderTakingReceiptUpdateDelete.php; sourceTree = "<group>"; };
+		EFB87D8920C4682E0011AF78 /* FFDJummumReceiptGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDJummumReceiptGetList.php; sourceTree = "<group>"; };
+		EFB87D8A20C4682E0011AF78 /* FFDMenuAndMenuIngredientInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuAndMenuIngredientInsertList.php; sourceTree = "<group>"; };
+		EFB87D8B20C4682E0011AF78 /* FFDSpecialPriceProgramUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramUpdate.php; sourceTree = "<group>"; };
+		EFB87D8C20C4682E0011AF78 /* FFDSubIngredientTypeUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubIngredientTypeUpdateList.php; sourceTree = "<group>"; };
+		EFB87D8D20C4682E0011AF78 /* FFDAddressDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDAddressDelete.php; sourceTree = "<group>"; };
+		EFB87D8E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php; sourceTree = "<group>"; };
+		EFB87D8F20C4682E0011AF78 /* FFDRewardPointDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardPointDelete.php; sourceTree = "<group>"; };
+		EFB87D9020C4682E0011AF78 /* FFDReceiptCustomerTableDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptCustomerTableDeleteList.php; sourceTree = "<group>"; };
+		EFB87D9120C4682E0011AF78 /* FFDAddressUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDAddressUpdateList.php; sourceTree = "<group>"; };
+		EFB87D9220C4682E0011AF78 /* FFDMenutypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenutypeInsert.php; sourceTree = "<group>"; };
+		EFB87D9320C4682E0011AF78 /* JMMDisputeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = JMMDisputeInsert.php; sourceTree = "<group>"; };
+		EFB87D9420C4682E0011AF78 /* FFDUserAccountDeviceTokenUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDUserAccountDeviceTokenUpdate.php; sourceTree = "<group>"; };
+		EFB87D9520C4682E0011AF78 /* FFDSpecialPriceProgramDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramDeleteList.php; sourceTree = "<group>"; };
+		EFB87D9620C4682E0011AF78 /* FFDMenuUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuUpdateList.php; sourceTree = "<group>"; };
+		EFB87D9720C4682E0011AF78 /* FFDSubMenuTypeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubMenuTypeUpdate.php; sourceTree = "<group>"; };
+		EFB87D9820C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php; sourceTree = "<group>"; };
+		EFB87D9920C4682E0011AF78 /* FFDIngredientInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientInsert.php; sourceTree = "<group>"; };
+		EFB87D9A20C4682E0011AF78 /* FFDMoveOrderUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMoveOrderUpdate.php; sourceTree = "<group>"; };
+		EFB87D9B20C4682E0011AF78 /* FFDOrderCancelDiscountUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderCancelDiscountUpdateList.php; sourceTree = "<group>"; };
+		EFB87D9C20C4682E0011AF78 /* FFDMenuTypeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuTypeUpdate.php; sourceTree = "<group>"; };
+		EFB87D9D20C4682E0011AF78 /* FFDReceiptPrintInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReceiptPrintInsertList.php; sourceTree = "<group>"; };
+		EFB87D9E20C4682E0011AF78 /* FFDOrderNoteDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderNoteDeleteList.php; sourceTree = "<group>"; };
+		EFB87D9F20C4682E0011AF78 /* urlinsertprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlinsertprefix.php; sourceTree = "<group>"; };
+		EFB87DA020C4682E0011AF78 /* FFDCredentialsValidate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDCredentialsValidate.php; sourceTree = "<group>"; };
+		EFB87DA120C4682E0011AF78 /* FFDRewardProgramDelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardProgramDelete.php; sourceTree = "<group>"; };
+		EFB87DA220C4682E0011AF78 /* FFDSubMenuTypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubMenuTypeInsert.php; sourceTree = "<group>"; };
+		EFB87DA320C4682E0011AF78 /* urldelete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urldelete.php; sourceTree = "<group>"; };
+		EFB87DA420C4682E0011AF78 /* FFDMenuTypeGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuTypeGetList.php; sourceTree = "<group>"; };
+		EFB87DA520C4682E0011AF78 /* tabButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = tabButton.psd; sourceTree = "<group>"; };
+		EFB87DA620C4682E0011AF78 /* FFDMoveOrderInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMoveOrderInsert.php; sourceTree = "<group>"; };
+		EFB87DA720C4682E0011AF78 /* urlupdateprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urlupdateprefix.php; sourceTree = "<group>"; };
+		EFB87DA820C4682E0011AF78 /* FFDIngredientUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientUpdate.php; sourceTree = "<group>"; };
+		EFB87DA920C4682E0011AF78 /* FFDSubIngredientTypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubIngredientTypeInsert.php; sourceTree = "<group>"; };
+		EFB87DAA20C4682E0011AF78 /* FFDDiscountGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDDiscountGetList.php; sourceTree = "<group>"; };
+		EFB87DAB20C4682E0011AF78 /* FFDPaySplitBillInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPaySplitBillInsert.php; sourceTree = "<group>"; };
+		EFB87DAC20C4682E0011AF78 /* FFDIngredientReceiveInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientReceiveInsertList.php; sourceTree = "<group>"; };
+		EFB87DAD20C4682E0011AF78 /* urldeletelist.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urldeletelist.php; sourceTree = "<group>"; };
+		EFB87DAE20C4682E0011AF78 /* FFDSubIngredientTypeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSubIngredientTypeUpdate.php; sourceTree = "<group>"; };
+		EFB87DAF20C4682E0011AF78 /* CustomerKitchenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerKitchenViewController.m; sourceTree = "<group>"; };
+		EFB87DB020C4682E0011AF78 /* createDbAndTable.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createDbAndTable.sql; sourceTree = "<group>"; };
+		EFB87DB120C4682E0011AF78 /* FFDSettingUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSettingUpdateList.php; sourceTree = "<group>"; };
+		EFB87DB220C4682E0011AF78 /* FFDMoneyCheckInsertListAndSendEmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMoneyCheckInsertListAndSendEmail.php; sourceTree = "<group>"; };
+		EFB87DB320C4682E0011AF78 /* FFDOrderTakingUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingUpdate.php; sourceTree = "<group>"; };
+		EFB87DB420C4682E0011AF78 /* FFDReportSalesTransactionGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesTransactionGetList.php; sourceTree = "<group>"; };
+		EFB87DB520C4682E0011AF78 /* FFDIngredientNeededGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientNeededGetList.php; sourceTree = "<group>"; };
+		EFB87DB620C4682E0011AF78 /* modelm.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = modelm.php; sourceTree = "<group>"; };
+		EFB87DB720C4682E0011AF78 /* urldeletelistprefix.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = urldeletelistprefix.php; sourceTree = "<group>"; };
+		EFB87DB820C4682E0011AF78 /* FFDRewardPointInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRewardPointInsertList.php; sourceTree = "<group>"; };
+		EFB87DB920C4682E0011AF78 /* FFDMenutypeAndSubMenuTypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenutypeAndSubMenuTypeInsert.php; sourceTree = "<group>"; };
+		EFB87DBA20C4682E0011AF78 /* FFDIngredientTypeGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeGetList.php; sourceTree = "<group>"; };
+		EFB87DBB20C4682E0011AF78 /* FFDSpecialPriceProgramUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDSpecialPriceProgramUpdateList.php; sourceTree = "<group>"; };
+		EFB87DBC20C4682E0011AF78 /* FFDWriteLog.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDWriteLog.php; sourceTree = "<group>"; };
+		EFB87DBD20C4682E0011AF78 /* FFDMenuTypeUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuTypeUpdateList.php; sourceTree = "<group>"; };
+		EFB87DBE20C4682E0011AF78 /* FFDIngredientTypeInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeInsert.php; sourceTree = "<group>"; };
+		EFB87DBF20C4682E0011AF78 /* transactionLog20180429.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transactionLog20180429.log; sourceTree = "<group>"; };
+		EFB87DC020C4682E0011AF78 /* compare2.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare2.php; sourceTree = "<group>"; };
+		EFB87DC120C4682E0011AF78 /* FFDReportSalesByMenuTypeDailyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesByMenuTypeDailyGetList.php; sourceTree = "<group>"; };
+		EFB87DC220C4682E0011AF78 /* FFDPushSyncSync.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDPushSyncSync.php; sourceTree = "<group>"; };
+		EFB87DC320C4682E0011AF78 /* FFDMenuIngredientUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuIngredientUpdate.php; sourceTree = "<group>"; };
+		EFB87DC420C4682E0011AF78 /* FFDMemberInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMemberInsert.php; sourceTree = "<group>"; };
+		EFB87DC520C4682E0011AF78 /* FFDRoleTabMenuInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDRoleTabMenuInsertList.php; sourceTree = "<group>"; };
+		EFB87DC620C4682E0011AF78 /* modelh.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = modelh.php; sourceTree = "<group>"; };
+		EFB87DC720C4682E0011AF78 /* FFDIngredientGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientGetList.php; sourceTree = "<group>"; };
+		EFB87DC820C4682E0011AF78 /* FFDIngredientUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientUpdateList.php; sourceTree = "<group>"; };
+		EFB87DC920C4682E0011AF78 /* emailTemplateCheckMoneyOpen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = emailTemplateCheckMoneyOpen.html; sourceTree = "<group>"; };
+		EFB87DCA20C4682E0011AF78 /* FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php; sourceTree = "<group>"; };
+		EFB87DCB20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php; sourceTree = "<group>"; };
+		EFB87DCC20C4682E0011AF78 /* JMMDisputeReasonGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = JMMDisputeReasonGetList.php; sourceTree = "<group>"; };
+		EFB87DCD20C4682E0011AF78 /* FFDIngredientTypeUpdate.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDIngredientTypeUpdate.php; sourceTree = "<group>"; };
+		EFB87DCE20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php; sourceTree = "<group>"; };
+		EFB87DCF20C4682E0011AF78 /* compare1.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = compare1.php; sourceTree = "<group>"; };
+		EFB87DD020C4682E0011AF78 /* FFDMenuIngredientInsert.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDMenuIngredientInsert.php; sourceTree = "<group>"; };
+		EFB87DD120C4682E0011AF78 /* FFDOrderCancelDiscountDeleteList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDOrderCancelDiscountDeleteList.php; sourceTree = "<group>"; };
+		EFB87DD220C4682E0011AF78 /* FFDReportSalesAllWeeklyGetList.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = FFDReportSalesAllWeeklyGetList.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +473,7 @@
 		EFB87CCA20C4680E0011AF78 = {
 			isa = PBXGroup;
 			children = (
+				EFB87D0E20C4682E0011AF78 /* FFD url */,
 				EFB87CD520C4680E0011AF78 /* FFDUrl */,
 				EFB87CF420C468110011AF78 /* FFDUrlTests */,
 				EFB87CFF20C468110011AF78 /* FFDUrlUITests */,
@@ -140,6 +527,230 @@
 				EFB87D0220C468110011AF78 /* Info.plist */,
 			);
 			path = FFDUrlUITests;
+			sourceTree = "<group>";
+		};
+		EFB87D0E20C4682E0011AF78 /* FFD url */ = {
+			isa = PBXGroup;
+			children = (
+				EFB87D0F20C4682E0011AF78 /* urlinsert.php */,
+				EFB87D1020C4682E0011AF78 /* FFDSubMenuTypeDelete.php */,
+				EFB87D1120C4682E0011AF78 /* FFDRewardProgramInsert.php */,
+				EFB87D1220C4682E0011AF78 /* FFDSubIngredientTypeAndIngredientInsert.php */,
+				EFB87D1320C4682E0011AF78 /* FFDReceiptCustomerTableInsertList.php */,
+				EFB87D1420C4682E0011AF78 /* FFDMoneyCheckInsertList.php */,
+				EFB87D1520C4682E0011AF78 /* FFDIngredientTypeUpdateList.php */,
+				EFB87D1620C4682E0011AF78 /* FFDTableTakingUpdate.php */,
+				EFB87D1720C4682E0011AF78 /* FFDBranchInsert.php */,
+				EFB87D1820C4682E0011AF78 /* FFDSpecialPriceProgramInsertList.php */,
+				EFB87D1920C4682E0011AF78 /* FFDSpecialPriceProgramGetList.php */,
+				EFB87D1A20C4682E0011AF78 /* sendEmail.php */,
+				EFB87D1B20C4682E0011AF78 /* testprint.html */,
+				EFB87D1C20C4682E0011AF78 /* urlupdate.php */,
+				EFB87D1D20C4682E0011AF78 /* FFDRewardProgramUpdate.php */,
+				EFB87D1E20C4682E0011AF78 /* FFDIngredientDelete.php */,
+				EFB87D1F20C4682E0011AF78 /* FFDReceiptGetList.php */,
+				EFB87D2020C4682E0011AF78 /* FFDIngredientTypeAndSubIngredientTypeInsert.php */,
+				EFB87D2120C4682E0011AF78 /* FFDMenuTypeDelete.php */,
+				EFB87D2220C4682E0011AF78 /* FFDMasterGet.php */,
+				EFB87D2320C4682E0011AF78 /* FFDBranchUpdate.php */,
+				EFB87D2420C4682E0011AF78 /* indextest.php */,
+				EFB87D2520C4682E0011AF78 /* FFDOrderNoteInsertList.php */,
+				EFB87D2620C4682E0011AF78 /* FFDCredentialsDbGet.php */,
+				EFB87D2720C4682E0011AF78 /* FFDPushSyncUpdateByDeviceToken.php */,
+				EFB87D2820C4682E0011AF78 /* FFDMergeReceiptCloseTableInsert.php */,
+				EFB87D2920C4682E0011AF78 /* FFDReportSalesEndDayGetList.php */,
+				EFB87D2A20C4682E0011AF78 /* index.html */,
+				EFB87D2B20C4682E0011AF78 /* FFDJummumReceiptUpdate.php */,
+				EFB87D2C20C4682E0011AF78 /* FFDIngredientReceiveUpdateList.php */,
+				EFB87D2D20C4682E0011AF78 /* FFDAddressInsert.php */,
+				EFB87D2E20C4682E0011AF78 /* FFDMenuInsert.php */,
+				EFB87D2F20C4682E0011AF78 /* FFDReportSalesByMemberGetList.php */,
+				EFB87D3020C4682E0011AF78 /* FFDDiscountInsert.php */,
+				EFB87D3120C4682E0011AF78 /* FFDIngredientReceiveGetList.php */,
+				EFB87D3220C4682E0011AF78 /* FFDUserAccountUpdate.php */,
+				EFB87D3320C4682E0011AF78 /* JMMReceiptSummaryGetList.php */,
+				EFB87D3420C4682E0011AF78 /* index.php */,
+				EFB87D3520C4682E0011AF78 /* FFDReportSalesByMenuGetList.php */,
+				EFB87D3620C4682E0011AF78 /* FFDRewardPointUpdateList.php */,
+				EFB87D3720C4682E0011AF78 /* certificate */,
+				EFB87D3E20C4682E0011AF78 /* FFDReportSalesByMenuTypeMonthlyGetList.php */,
+				EFB87D3F20C4682E0011AF78 /* FFDPrinterUpdate.php */,
+				EFB87D4020C4682E0011AF78 /* FFDSpecialPriceProgramDelete.php */,
+				EFB87D4120C4682E0011AF78 /* FFDAddressUpdate.php */,
+				EFB87D4220C4682E0011AF78 /* FFDDiscountUpdate.php */,
+				EFB87D4320C4682E0011AF78 /* FFDMenuUpdate.php */,
+				EFB87D4420C4682E0011AF78 /* FFDOrderCancelDiscountOrderTakingInsertList.php */,
+				EFB87D4520C4682E0011AF78 /* FFDPaySplitBillInsertAfterFirstTime.php */,
+				EFB87D4620C4682E0011AF78 /* FFDUserAccountInsert.php */,
+				EFB87D4720C4682E0011AF78 /* FFDLogInInsert.php */,
+				EFB87D4820C4682E0011AF78 /* FFDRewardProgramGetList.php */,
+				EFB87D4920C4682E0011AF78 /* testcolumntype.php */,
+				EFB87D4A20C4682E0011AF78 /* FFDRoleTabMenuDeleteList.php */,
+				EFB87D4B20C4682E0011AF78 /* urlinsertlistprefix.php */,
+				EFB87D4C20C4682E0011AF78 /* transactionLog20180323.log */,
+				EFB87D4D20C4682E0011AF78 /* FFDBranchGet.php */,
+				EFB87D4E20C4682E0011AF78 /* testwritelog.php */,
+				EFB87D4F20C4682E0011AF78 /* urlupdatelistprefix.php */,
+				EFB87D5020C4682E0011AF78 /* FFDOrderCancelDiscountInsert.php */,
+				EFB87D5120C4682E0011AF78 /* transactionLog20180518.log */,
+				EFB87D5220C4682E0011AF78 /* FFDOrderTakingUpdateList.php */,
+				EFB87D5320C4682E0011AF78 /* FFDReceiptUpdate.php */,
+				EFB87D5420C4682E0011AF78 /* FFDMenuIngredientDelete.php */,
+				EFB87D5520C4682E0011AF78 /* FFDMenuIngredientInsertList.php */,
+				EFB87D5620C4682E0011AF78 /* emailTemplateCheckMoneyClose.html */,
+				EFB87D5720C4682E0011AF78 /* FFDBoardUpdate.php */,
+				EFB87D5820C4682E0011AF78 /* FFDTableTakingReceiptOrderTakingListUpdate.php */,
+				EFB87D5920C4682E0011AF78 /* FFDOrderTakingInsertUpdate.php */,
+				EFB87D5A20C4682E0011AF78 /* FFDIngredientTypeDelete.php */,
+				EFB87D5B20C4682E0011AF78 /* FFDSubMenuTypeUpdateList.php */,
+				EFB87D5C20C4682E0011AF78 /* FFDSubMenuTypeAndMenuInsert.php */,
+				EFB87D5D20C4682E0011AF78 /* FFDOrderCancelDiscountInsertList.php */,
+				EFB87D5E20C4682E0011AF78 /* FFDIngredientReceiveDeleteList.php */,
+				EFB87D5F20C4682E0011AF78 /* tabmenu.psd */,
+				EFB87D6020C4682E0011AF78 /* cer */,
+				EFB87D6720C4682E0011AF78 /* FFDPaySplitBillInsertWithoutReceipt.php */,
+				EFB87D6820C4682E0011AF78 /* FFDSettingUpdate.php */,
+				EFB87D6920C4682E0011AF78 /* transactionLog20180523.log */,
+				EFB87D6A20C4682E0011AF78 /* testpush.php */,
+				EFB87D6B20C4682E0011AF78 /* transactionLog20180325.log */,
+				EFB87D6C20C4682E0011AF78 /* FFDIngredientCheckInsertList.php */,
+				EFB87D6D20C4682E0011AF78 /* transactionLog20180324.log */,
+				EFB87D6E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php */,
+				EFB87D6F20C4682E0011AF78 /* transactionLog20180520.log */,
+				EFB87D7020C4682E0011AF78 /* FFDIngredientCheckGetList.php */,
+				EFB87D7120C4682E0011AF78 /* FFDRewardPointDeleteList.php */,
+				EFB87D7220C4682E0011AF78 /* FFDSubIngredientTypeDelete.php */,
+				EFB87D7320C4682E0011AF78 /* FFDReportSalesAllMonthlyGetList.php */,
+				EFB87D7420C4682E0011AF78 /* FFDReceiptAndReceiptNoTaxPrintInsert.php */,
+				EFB87D7520C4682E0011AF78 /* FFDTableTakingInsertUpdate.php */,
+				EFB87D7620C4682E0011AF78 /* FFDReportSalesAllDailyGetList.php */,
+				EFB87D7720C4682E0011AF78 /* Image */,
+				EFB87D7920C4682E0011AF78 /* FFDOrderTakingDelete.php */,
+				EFB87D7A20C4682E0011AF78 /* FFDReportSalesByMenuTypeWeeklyGetList.php */,
+				EFB87D7B20C4682E0011AF78 /* FFDPaySplitBillInsertLastOne.php */,
+				EFB87D7C20C4682E0011AF78 /* urlupdatelist.php */,
+				EFB87D7D20C4682E0011AF78 /* FFDTableTakingWithCustomerTableDelete.php */,
+				EFB87D7E20C4682E0011AF78 /* FFDMenuGetList.php */,
+				EFB87D7F20C4682E0011AF78 /* FFDDeviceInsert.php */,
+				EFB87D8020C4682E0011AF78 /* FFDSpecialPriceProgramInsert.php */,
+				EFB87D8120C4682E0011AF78 /* dbConnect.php */,
+				EFB87D8220C4682E0011AF78 /* test.php */,
+				EFB87D8320C4682E0011AF78 /* FFDPushSyncUpdateTimeSynced.php */,
+				EFB87D8420C4682E0011AF78 /* FFDDiscountDelete.php */,
+				EFB87D8520C4682E0011AF78 /* FFDMenuDelete.php */,
+				EFB87D8620C4682E0011AF78 /* FFDReceiptBackUpdate.php */,
+				EFB87D8720C4682E0011AF78 /* FFDReceiptCloseTableUpdate.php */,
+				EFB87D8820C4682E0011AF78 /* FFDTableTakingOrderTakingReceiptUpdateDelete.php */,
+				EFB87D8920C4682E0011AF78 /* FFDJummumReceiptGetList.php */,
+				EFB87D8A20C4682E0011AF78 /* FFDMenuAndMenuIngredientInsertList.php */,
+				EFB87D8B20C4682E0011AF78 /* FFDSpecialPriceProgramUpdate.php */,
+				EFB87D8C20C4682E0011AF78 /* FFDSubIngredientTypeUpdateList.php */,
+				EFB87D8D20C4682E0011AF78 /* FFDAddressDelete.php */,
+				EFB87D8E20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php */,
+				EFB87D8F20C4682E0011AF78 /* FFDRewardPointDelete.php */,
+				EFB87D9020C4682E0011AF78 /* FFDReceiptCustomerTableDeleteList.php */,
+				EFB87D9120C4682E0011AF78 /* FFDAddressUpdateList.php */,
+				EFB87D9220C4682E0011AF78 /* FFDMenutypeInsert.php */,
+				EFB87D9320C4682E0011AF78 /* JMMDisputeInsert.php */,
+				EFB87D9420C4682E0011AF78 /* FFDUserAccountDeviceTokenUpdate.php */,
+				EFB87D9520C4682E0011AF78 /* FFDSpecialPriceProgramDeleteList.php */,
+				EFB87D9620C4682E0011AF78 /* FFDMenuUpdateList.php */,
+				EFB87D9720C4682E0011AF78 /* FFDSubMenuTypeUpdate.php */,
+				EFB87D9820C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php */,
+				EFB87D9920C4682E0011AF78 /* FFDIngredientInsert.php */,
+				EFB87D9A20C4682E0011AF78 /* FFDMoveOrderUpdate.php */,
+				EFB87D9B20C4682E0011AF78 /* FFDOrderCancelDiscountUpdateList.php */,
+				EFB87D9C20C4682E0011AF78 /* FFDMenuTypeUpdate.php */,
+				EFB87D9D20C4682E0011AF78 /* FFDReceiptPrintInsertList.php */,
+				EFB87D9E20C4682E0011AF78 /* FFDOrderNoteDeleteList.php */,
+				EFB87D9F20C4682E0011AF78 /* urlinsertprefix.php */,
+				EFB87DA020C4682E0011AF78 /* FFDCredentialsValidate.php */,
+				EFB87DA120C4682E0011AF78 /* FFDRewardProgramDelete.php */,
+				EFB87DA220C4682E0011AF78 /* FFDSubMenuTypeInsert.php */,
+				EFB87DA320C4682E0011AF78 /* urldelete.php */,
+				EFB87DA420C4682E0011AF78 /* FFDMenuTypeGetList.php */,
+				EFB87DA520C4682E0011AF78 /* tabButton.psd */,
+				EFB87DA620C4682E0011AF78 /* FFDMoveOrderInsert.php */,
+				EFB87DA720C4682E0011AF78 /* urlupdateprefix.php */,
+				EFB87DA820C4682E0011AF78 /* FFDIngredientUpdate.php */,
+				EFB87DA920C4682E0011AF78 /* FFDSubIngredientTypeInsert.php */,
+				EFB87DAA20C4682E0011AF78 /* FFDDiscountGetList.php */,
+				EFB87DAB20C4682E0011AF78 /* FFDPaySplitBillInsert.php */,
+				EFB87DAC20C4682E0011AF78 /* FFDIngredientReceiveInsertList.php */,
+				EFB87DAD20C4682E0011AF78 /* urldeletelist.php */,
+				EFB87DAE20C4682E0011AF78 /* FFDSubIngredientTypeUpdate.php */,
+				EFB87DAF20C4682E0011AF78 /* CustomerKitchenViewController.m */,
+				EFB87DB020C4682E0011AF78 /* createDbAndTable.sql */,
+				EFB87DB120C4682E0011AF78 /* FFDSettingUpdateList.php */,
+				EFB87DB220C4682E0011AF78 /* FFDMoneyCheckInsertListAndSendEmail.php */,
+				EFB87DB320C4682E0011AF78 /* FFDOrderTakingUpdate.php */,
+				EFB87DB420C4682E0011AF78 /* FFDReportSalesTransactionGetList.php */,
+				EFB87DB520C4682E0011AF78 /* FFDIngredientNeededGetList.php */,
+				EFB87DB620C4682E0011AF78 /* modelm.php */,
+				EFB87DB720C4682E0011AF78 /* urldeletelistprefix.php */,
+				EFB87DB820C4682E0011AF78 /* FFDRewardPointInsertList.php */,
+				EFB87DB920C4682E0011AF78 /* FFDMenutypeAndSubMenuTypeInsert.php */,
+				EFB87DBA20C4682E0011AF78 /* FFDIngredientTypeGetList.php */,
+				EFB87DBB20C4682E0011AF78 /* FFDSpecialPriceProgramUpdateList.php */,
+				EFB87DBC20C4682E0011AF78 /* FFDWriteLog.php */,
+				EFB87DBD20C4682E0011AF78 /* FFDMenuTypeUpdateList.php */,
+				EFB87DBE20C4682E0011AF78 /* FFDIngredientTypeInsert.php */,
+				EFB87DBF20C4682E0011AF78 /* transactionLog20180429.log */,
+				EFB87DC020C4682E0011AF78 /* compare2.php */,
+				EFB87DC120C4682E0011AF78 /* FFDReportSalesByMenuTypeDailyGetList.php */,
+				EFB87DC220C4682E0011AF78 /* FFDPushSyncSync.php */,
+				EFB87DC320C4682E0011AF78 /* FFDMenuIngredientUpdate.php */,
+				EFB87DC420C4682E0011AF78 /* FFDMemberInsert.php */,
+				EFB87DC520C4682E0011AF78 /* FFDRoleTabMenuInsertList.php */,
+				EFB87DC620C4682E0011AF78 /* modelh.php */,
+				EFB87DC720C4682E0011AF78 /* FFDIngredientGetList.php */,
+				EFB87DC820C4682E0011AF78 /* FFDIngredientUpdateList.php */,
+				EFB87DC920C4682E0011AF78 /* emailTemplateCheckMoneyOpen.html */,
+				EFB87DCA20C4682E0011AF78 /* FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php */,
+				EFB87DCB20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php */,
+				EFB87DCC20C4682E0011AF78 /* JMMDisputeReasonGetList.php */,
+				EFB87DCD20C4682E0011AF78 /* FFDIngredientTypeUpdate.php */,
+				EFB87DCE20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php */,
+				EFB87DCF20C4682E0011AF78 /* compare1.php */,
+				EFB87DD020C4682E0011AF78 /* FFDMenuIngredientInsert.php */,
+				EFB87DD120C4682E0011AF78 /* FFDOrderCancelDiscountDeleteList.php */,
+				EFB87DD220C4682E0011AF78 /* FFDReportSalesAllWeeklyGetList.php */,
+			);
+			path = "FFD url";
+			sourceTree = "<group>";
+		};
+		EFB87D3720C4682E0011AF78 /* certificate */ = {
+			isa = PBXGroup;
+			children = (
+				EFB87D3820C4682E0011AF78 /* aps_development.cer */,
+				EFB87D3920C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */,
+				EFB87D3A20C4682E0011AF78 /* ck.pem */,
+				EFB87D3B20C4682E0011AF78 /* Certificates.p12 */,
+				EFB87D3C20C4682E0011AF78 /* PushCert.pem */,
+				EFB87D3D20C4682E0011AF78 /* PushKey.pem */,
+			);
+			path = certificate;
+			sourceTree = "<group>";
+		};
+		EFB87D6020C4682E0011AF78 /* cer */ = {
+			isa = PBXGroup;
+			children = (
+				EFB87D6120C4682E0011AF78 /* aps_development.cer */,
+				EFB87D6220C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest */,
+				EFB87D6320C4682E0011AF78 /* ck.pem */,
+				EFB87D6420C4682E0011AF78 /* Certificates.p12 */,
+				EFB87D6520C4682E0011AF78 /* PushCert.pem */,
+				EFB87D6620C4682E0011AF78 /* PushKey.pem */,
+			);
+			path = cer;
+			sourceTree = "<group>";
+		};
+		EFB87D7720C4682E0011AF78 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EFB87D7820C4682E0011AF78 /* mamarinReceiptLogo2.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +856,201 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB87E5A20C4682F0011AF78 /* FFDIngredientInsert.php in Resources */,
+				EFB87E2220C4682E0011AF78 /* tabmenu.psd in Resources */,
+				EFB87DF820C4682E0011AF78 /* index.php in Resources */,
+				EFB87E3A20C4682E0011AF78 /* FFDOrderTakingDelete.php in Resources */,
+				EFB87E0C20C4682E0011AF78 /* testcolumntype.php in Resources */,
+				EFB87E7C20C4682F0011AF78 /* FFDSpecialPriceProgramUpdateList.php in Resources */,
+				EFB87DE620C4682E0011AF78 /* FFDMasterGet.php in Resources */,
+				EFB87E5B20C4682F0011AF78 /* FFDMoveOrderUpdate.php in Resources */,
+				EFB87E2820C4682E0011AF78 /* PushKey.pem in Resources */,
+				EFB87DD420C4682E0011AF78 /* FFDSubMenuTypeDelete.php in Resources */,
+				EFB87E3D20C4682E0011AF78 /* urlupdatelist.php in Resources */,
+				EFB87E2F20C4682E0011AF78 /* transactionLog20180324.log in Resources */,
+				EFB87E4F20C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptInsertList.php in Resources */,
+				EFB87E6620C4682F0011AF78 /* tabButton.psd in Resources */,
+				EFB87E3F20C4682E0011AF78 /* FFDMenuGetList.php in Resources */,
+				EFB87E3420C4682E0011AF78 /* FFDSubIngredientTypeDelete.php in Resources */,
 				EFB87CE920C468100011AF78 /* LaunchScreen.storyboard in Resources */,
+				EFB87E3B20C4682E0011AF78 /* FFDReportSalesByMenuTypeWeeklyGetList.php in Resources */,
+				EFB87E6A20C4682F0011AF78 /* FFDSubIngredientTypeInsert.php in Resources */,
+				EFB87E2D20C4682E0011AF78 /* transactionLog20180325.log in Resources */,
+				EFB87E7420C4682F0011AF78 /* FFDOrderTakingUpdate.php in Resources */,
+				EFB87DF420C4682E0011AF78 /* FFDDiscountInsert.php in Resources */,
+				EFB87E5420C4682E0011AF78 /* JMMDisputeInsert.php in Resources */,
+				EFB87E5920C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCustomerTableInsertList.php in Resources */,
+				EFB87DF120C4682E0011AF78 /* FFDAddressInsert.php in Resources */,
+				EFB87E3920C4682E0011AF78 /* mamarinReceiptLogo2.png in Resources */,
+				EFB87E0320C4682E0011AF78 /* FFDSpecialPriceProgramDelete.php in Resources */,
+				EFB87DE120C4682E0011AF78 /* FFDRewardProgramUpdate.php in Resources */,
+				EFB87DDA20C4682E0011AF78 /* FFDTableTakingUpdate.php in Resources */,
+				EFB87E2E20C4682E0011AF78 /* FFDIngredientCheckInsertList.php in Resources */,
+				EFB87E6F20C4682F0011AF78 /* FFDSubIngredientTypeUpdate.php in Resources */,
+				EFB87E6020C4682F0011AF78 /* urlinsertprefix.php in Resources */,
+				EFB87E6B20C4682F0011AF78 /* FFDDiscountGetList.php in Resources */,
+				EFB87E1620C4682E0011AF78 /* FFDReceiptUpdate.php in Resources */,
+				EFB87DD720C4682E0011AF78 /* FFDReceiptCustomerTableInsertList.php in Resources */,
+				EFB87E8820C4682F0011AF78 /* FFDIngredientGetList.php in Resources */,
+				EFB87E0B20C4682E0011AF78 /* FFDRewardProgramGetList.php in Resources */,
+				EFB87E7120C4682F0011AF78 /* createDbAndTable.sql in Resources */,
+				EFB87E1320C4682E0011AF78 /* FFDOrderCancelDiscountInsert.php in Resources */,
+				EFB87DFB20C4682E0011AF78 /* aps_development.cer in Resources */,
+				EFB87E5320C4682E0011AF78 /* FFDMenutypeInsert.php in Resources */,
+				EFB87E1D20C4682E0011AF78 /* FFDIngredientTypeDelete.php in Resources */,
+				EFB87E8520C4682F0011AF78 /* FFDMemberInsert.php in Resources */,
+				EFB87E5F20C4682F0011AF78 /* FFDOrderNoteDeleteList.php in Resources */,
+				EFB87E5D20C4682F0011AF78 /* FFDMenuTypeUpdate.php in Resources */,
+				EFB87E7620C4682F0011AF78 /* FFDIngredientNeededGetList.php in Resources */,
+				EFB87E8920C4682F0011AF78 /* FFDIngredientUpdateList.php in Resources */,
+				EFB87E4520C4682E0011AF78 /* FFDDiscountDelete.php in Resources */,
+				EFB87E5020C4682E0011AF78 /* FFDRewardPointDelete.php in Resources */,
+				EFB87E7F20C4682F0011AF78 /* FFDIngredientTypeInsert.php in Resources */,
+				EFB87E0920C4682E0011AF78 /* FFDUserAccountInsert.php in Resources */,
+				EFB87E7E20C4682F0011AF78 /* FFDMenuTypeUpdateList.php in Resources */,
+				EFB87E1C20C4682E0011AF78 /* FFDOrderTakingInsertUpdate.php in Resources */,
+				EFB87E5220C4682E0011AF78 /* FFDAddressUpdateList.php in Resources */,
+				EFB87DE820C4682E0011AF78 /* indextest.php in Resources */,
+				EFB87E1F20C4682E0011AF78 /* FFDSubMenuTypeAndMenuInsert.php in Resources */,
+				EFB87E8720C4682F0011AF78 /* modelh.php in Resources */,
+				EFB87E0E20C4682E0011AF78 /* urlinsertlistprefix.php in Resources */,
+				EFB87E3120C4682E0011AF78 /* transactionLog20180520.log in Resources */,
+				EFB87DD820C4682E0011AF78 /* FFDMoneyCheckInsertList.php in Resources */,
+				EFB87E4120C4682E0011AF78 /* FFDSpecialPriceProgramInsert.php in Resources */,
+				EFB87E5820C4682F0011AF78 /* FFDSubMenuTypeUpdate.php in Resources */,
+				EFB87E6820C4682F0011AF78 /* urlupdateprefix.php in Resources */,
+				EFB87DDD20C4682E0011AF78 /* FFDSpecialPriceProgramGetList.php in Resources */,
+				EFB87E2920C4682E0011AF78 /* FFDPaySplitBillInsertWithoutReceipt.php in Resources */,
+				EFB87E2120C4682E0011AF78 /* FFDIngredientReceiveDeleteList.php in Resources */,
+				EFB87DEC20C4682E0011AF78 /* FFDMergeReceiptCloseTableInsert.php in Resources */,
+				EFB87DEF20C4682E0011AF78 /* FFDJummumReceiptUpdate.php in Resources */,
+				EFB87DEA20C4682E0011AF78 /* FFDCredentialsDbGet.php in Resources */,
+				EFB87E0A20C4682E0011AF78 /* FFDLogInInsert.php in Resources */,
+				EFB87E1420C4682E0011AF78 /* transactionLog20180518.log in Resources */,
+				EFB87E6E20C4682F0011AF78 /* urldeletelist.php in Resources */,
+				EFB87E3820C4682E0011AF78 /* FFDReportSalesAllDailyGetList.php in Resources */,
+				EFB87E3E20C4682E0011AF78 /* FFDTableTakingWithCustomerTableDelete.php in Resources */,
+				EFB87E8420C4682F0011AF78 /* FFDMenuIngredientUpdate.php in Resources */,
+				EFB87E3320C4682E0011AF78 /* FFDRewardPointDeleteList.php in Resources */,
+				EFB87E6720C4682F0011AF78 /* FFDMoveOrderInsert.php in Resources */,
+				EFB87E4C20C4682E0011AF78 /* FFDSpecialPriceProgramUpdate.php in Resources */,
+				EFB87E0620C4682E0011AF78 /* FFDMenuUpdate.php in Resources */,
+				EFB87E4620C4682E0011AF78 /* FFDMenuDelete.php in Resources */,
+				EFB87DE520C4682E0011AF78 /* FFDMenuTypeDelete.php in Resources */,
+				EFB87E4A20C4682E0011AF78 /* FFDJummumReceiptGetList.php in Resources */,
+				EFB87E6220C4682F0011AF78 /* FFDRewardProgramDelete.php in Resources */,
+				EFB87E4D20C4682E0011AF78 /* FFDSubIngredientTypeUpdateList.php in Resources */,
+				EFB87E1220C4682E0011AF78 /* urlupdatelistprefix.php in Resources */,
+				EFB87E8C20C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenReceiptAndReceiptNoInsertList.php in Resources */,
+				EFB87E8F20C4682F0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenCancelOrderInsertUpdateList.php in Resources */,
+				EFB87DE320C4682E0011AF78 /* FFDReceiptGetList.php in Resources */,
 				EFB87CE620C468100011AF78 /* Assets.xcassets in Resources */,
+				EFB87DF220C4682E0011AF78 /* FFDMenuInsert.php in Resources */,
+				EFB87E1B20C4682E0011AF78 /* FFDTableTakingReceiptOrderTakingListUpdate.php in Resources */,
+				EFB87DE220C4682E0011AF78 /* FFDIngredientDelete.php in Resources */,
+				EFB87E1520C4682E0011AF78 /* FFDOrderTakingUpdateList.php in Resources */,
+				EFB87E1020C4682E0011AF78 /* FFDBranchGet.php in Resources */,
+				EFB87E8A20C4682F0011AF78 /* emailTemplateCheckMoneyOpen.html in Resources */,
+				EFB87E1720C4682E0011AF78 /* FFDMenuIngredientDelete.php in Resources */,
+				EFB87DFE20C4682E0011AF78 /* Certificates.p12 in Resources */,
+				EFB87DD920C4682E0011AF78 /* FFDIngredientTypeUpdateList.php in Resources */,
+				EFB87DFD20C4682E0011AF78 /* ck.pem in Resources */,
+				EFB87E9320C4682F0011AF78 /* FFDReportSalesAllWeeklyGetList.php in Resources */,
+				EFB87E0020C4682E0011AF78 /* PushKey.pem in Resources */,
+				EFB87E8320C4682F0011AF78 /* FFDPushSyncSync.php in Resources */,
+				EFB87DF020C4682E0011AF78 /* FFDIngredientReceiveUpdateList.php in Resources */,
+				EFB87E4420C4682E0011AF78 /* FFDPushSyncUpdateTimeSynced.php in Resources */,
+				EFB87E1920C4682E0011AF78 /* emailTemplateCheckMoneyClose.html in Resources */,
+				EFB87E6D20C4682F0011AF78 /* FFDIngredientReceiveInsertList.php in Resources */,
 				EFB87CE420C4680E0011AF78 /* Main.storyboard in Resources */,
+				EFB87E1120C4682E0011AF78 /* testwritelog.php in Resources */,
+				EFB87E6420C4682F0011AF78 /* urldelete.php in Resources */,
+				EFB87E0420C4682E0011AF78 /* FFDAddressUpdate.php in Resources */,
+				EFB87E2720C4682E0011AF78 /* PushCert.pem in Resources */,
+				EFB87E0820C4682E0011AF78 /* FFDPaySplitBillInsertAfterFirstTime.php in Resources */,
+				EFB87E0120C4682E0011AF78 /* FFDReportSalesByMenuTypeMonthlyGetList.php in Resources */,
+				EFB87E7320C4682F0011AF78 /* FFDMoneyCheckInsertListAndSendEmail.php in Resources */,
+				EFB87E0F20C4682E0011AF78 /* transactionLog20180323.log in Resources */,
+				EFB87E7B20C4682F0011AF78 /* FFDIngredientTypeGetList.php in Resources */,
+				EFB87DFF20C4682E0011AF78 /* PushCert.pem in Resources */,
+				EFB87E4B20C4682E0011AF78 /* FFDMenuAndMenuIngredientInsertList.php in Resources */,
+				EFB87E4820C4682E0011AF78 /* FFDReceiptCloseTableUpdate.php in Resources */,
+				EFB87E8120C4682F0011AF78 /* compare2.php in Resources */,
+				EFB87E3220C4682E0011AF78 /* FFDIngredientCheckGetList.php in Resources */,
+				EFB87E4E20C4682E0011AF78 /* FFDAddressDelete.php in Resources */,
+				EFB87DF920C4682E0011AF78 /* FFDReportSalesByMenuGetList.php in Resources */,
+				EFB87DEB20C4682E0011AF78 /* FFDPushSyncUpdateByDeviceToken.php in Resources */,
+				EFB87E3720C4682E0011AF78 /* FFDTableTakingInsertUpdate.php in Resources */,
+				EFB87DDB20C4682E0011AF78 /* FFDBranchInsert.php in Resources */,
+				EFB87DE420C4682E0011AF78 /* FFDIngredientTypeAndSubIngredientTypeInsert.php in Resources */,
+				EFB87E2A20C4682E0011AF78 /* FFDSettingUpdate.php in Resources */,
+				EFB87E5C20C4682F0011AF78 /* FFDOrderCancelDiscountUpdateList.php in Resources */,
+				EFB87E0D20C4682E0011AF78 /* FFDRoleTabMenuDeleteList.php in Resources */,
+				EFB87E2B20C4682E0011AF78 /* transactionLog20180523.log in Resources */,
+				EFB87E1E20C4682E0011AF78 /* FFDSubMenuTypeUpdateList.php in Resources */,
+				EFB87E7820C4682F0011AF78 /* urldeletelistprefix.php in Resources */,
+				EFB87E5520C4682E0011AF78 /* FFDUserAccountDeviceTokenUpdate.php in Resources */,
+				EFB87E5120C4682E0011AF78 /* FFDReceiptCustomerTableDeleteList.php in Resources */,
+				EFB87E2C20C4682E0011AF78 /* testpush.php in Resources */,
+				EFB87E6120C4682F0011AF78 /* FFDCredentialsValidate.php in Resources */,
+				EFB87DD620C4682E0011AF78 /* FFDSubIngredientTypeAndIngredientInsert.php in Resources */,
+				EFB87E2420C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */,
+				EFB87E7D20C4682F0011AF78 /* FFDWriteLog.php in Resources */,
+				EFB87DF620C4682E0011AF78 /* FFDUserAccountUpdate.php in Resources */,
+				EFB87E7920C4682F0011AF78 /* FFDRewardPointInsertList.php in Resources */,
+				EFB87E3620C4682E0011AF78 /* FFDReceiptAndReceiptNoTaxPrintInsert.php in Resources */,
+				EFB87E4320C4682E0011AF78 /* test.php in Resources */,
+				EFB87DE020C4682E0011AF78 /* urlupdate.php in Resources */,
+				EFB87E5E20C4682F0011AF78 /* FFDReceiptPrintInsertList.php in Resources */,
+				EFB87E8B20C4682F0011AF78 /* FFDOrderTakingOrderKitchenTableTakingReceiptUpdateList.php in Resources */,
+				EFB87DEE20C4682E0011AF78 /* index.html in Resources */,
+				EFB87E7A20C4682F0011AF78 /* FFDMenutypeAndSubMenuTypeInsert.php in Resources */,
+				EFB87DFA20C4682E0011AF78 /* FFDRewardPointUpdateList.php in Resources */,
+				EFB87E6C20C4682F0011AF78 /* FFDPaySplitBillInsert.php in Resources */,
+				EFB87E1820C4682E0011AF78 /* FFDMenuIngredientInsertList.php in Resources */,
+				EFB87E7220C4682F0011AF78 /* FFDSettingUpdateList.php in Resources */,
+				EFB87DE720C4682E0011AF78 /* FFDBranchUpdate.php in Resources */,
+				EFB87E2020C4682E0011AF78 /* FFDOrderCancelDiscountInsertList.php in Resources */,
+				EFB87E9020C4682F0011AF78 /* compare1.php in Resources */,
+				EFB87E8D20C4682F0011AF78 /* JMMDisputeReasonGetList.php in Resources */,
+				EFB87DDC20C4682E0011AF78 /* FFDSpecialPriceProgramInsertList.php in Resources */,
+				EFB87E0720C4682E0011AF78 /* FFDOrderCancelDiscountOrderTakingInsertList.php in Resources */,
+				EFB87E5720C4682F0011AF78 /* FFDMenuUpdateList.php in Resources */,
+				EFB87E0220C4682E0011AF78 /* FFDPrinterUpdate.php in Resources */,
+				EFB87E3020C4682E0011AF78 /* FFDOrderTakingOrderNoteOrderKitchenOrderCancelDiscountInsertUpdateList.php in Resources */,
+				EFB87E3C20C4682E0011AF78 /* FFDPaySplitBillInsertLastOne.php in Resources */,
+				EFB87DD520C4682E0011AF78 /* FFDRewardProgramInsert.php in Resources */,
+				EFB87E6920C4682F0011AF78 /* FFDIngredientUpdate.php in Resources */,
+				EFB87E9220C4682F0011AF78 /* FFDOrderCancelDiscountDeleteList.php in Resources */,
+				EFB87DFC20C4682E0011AF78 /* CertificateSigningRequest.certSigningRequest in Resources */,
+				EFB87E6320C4682F0011AF78 /* FFDSubMenuTypeInsert.php in Resources */,
+				EFB87E0520C4682E0011AF78 /* FFDDiscountUpdate.php in Resources */,
+				EFB87DF320C4682E0011AF78 /* FFDReportSalesByMemberGetList.php in Resources */,
+				EFB87E2620C4682E0011AF78 /* Certificates.p12 in Resources */,
+				EFB87E8020C4682F0011AF78 /* transactionLog20180429.log in Resources */,
+				EFB87DD320C4682E0011AF78 /* urlinsert.php in Resources */,
+				EFB87DDF20C4682E0011AF78 /* testprint.html in Resources */,
+				EFB87E2320C4682E0011AF78 /* aps_development.cer in Resources */,
+				EFB87E8E20C4682F0011AF78 /* FFDIngredientTypeUpdate.php in Resources */,
+				EFB87E8220C4682F0011AF78 /* FFDReportSalesByMenuTypeDailyGetList.php in Resources */,
+				EFB87DDE20C4682E0011AF78 /* sendEmail.php in Resources */,
+				EFB87E9120C4682F0011AF78 /* FFDMenuIngredientInsert.php in Resources */,
+				EFB87E5620C4682E0011AF78 /* FFDSpecialPriceProgramDeleteList.php in Resources */,
+				EFB87E8620C4682F0011AF78 /* FFDRoleTabMenuInsertList.php in Resources */,
+				EFB87E7720C4682F0011AF78 /* modelm.php in Resources */,
+				EFB87E4720C4682E0011AF78 /* FFDReceiptBackUpdate.php in Resources */,
+				EFB87E4220C4682E0011AF78 /* dbConnect.php in Resources */,
+				EFB87DF720C4682E0011AF78 /* JMMReceiptSummaryGetList.php in Resources */,
+				EFB87DF520C4682E0011AF78 /* FFDIngredientReceiveGetList.php in Resources */,
+				EFB87E3520C4682E0011AF78 /* FFDReportSalesAllMonthlyGetList.php in Resources */,
+				EFB87E7520C4682F0011AF78 /* FFDReportSalesTransactionGetList.php in Resources */,
+				EFB87E2520C4682E0011AF78 /* ck.pem in Resources */,
+				EFB87DED20C4682E0011AF78 /* FFDReportSalesEndDayGetList.php in Resources */,
+				EFB87DE920C4682E0011AF78 /* FFDOrderNoteInsertList.php in Resources */,
+				EFB87E1A20C4682E0011AF78 /* FFDBoardUpdate.php in Resources */,
+				EFB87E4920C4682E0011AF78 /* FFDTableTakingOrderTakingReceiptUpdateDelete.php in Resources */,
+				EFB87E4020C4682E0011AF78 /* FFDDeviceInsert.php in Resources */,
+				EFB87E6520C4682F0011AF78 /* FFDMenuTypeGetList.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +1080,7 @@
 				EFB87CDB20C4680E0011AF78 /* DocumentBrowserViewController.m in Sources */,
 				EFB87CDE20C4680E0011AF78 /* DocumentViewController.m in Sources */,
 				EFB87CD820C4680E0011AF78 /* AppDelegate.m in Sources */,
+				EFB87E7020C4682F0011AF78 /* CustomerKitchenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
